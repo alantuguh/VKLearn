@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "category": "Pos 1: Eksplorasi Perangkat Lunak",
+      "question": "Ketika pertama kali mempelajari software multimedia baru, pendekatan apa yang paling nyaman bagi Anda?",
+      "options": [
+        { "text": "Menonton video tutorial langkah demi langkah dengan ilustrasi visual yang jelas", "type": "V", "feedback": "Kecenderungan Visual: Anda mudah memahami antarmuka dan alur kerja melalui demonstrasi visual." },
+        { "text": "Mendengarkan penjelasan lisan dari guru atau instruktur mengenai fungsinya", "type": "A", "feedback": "Kecenderungan Auditori: Anda mengandalkan instruksi verbal untuk memahami konsep kerja sistem." },
+        { "text": "Langsung membuka software, menekan tombol-tombol fitur, dan bereksperimen mandiri", "type": "K", "feedback": "Kecenderungan Kinestetik: Anda menyerap pemahaman paling cepat lewat interaksi langsung." }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Pos 2: Retensi & Mengingat Materi",
+      "question": "Metode mana yang paling membantu Anda dalam mengingat konsep dan teori multimedia?",
+      "options": [
+        { "text": "Membuat ringkasan berupa diagram alur (flowchart), mind map, atau catatan berwarna", "type": "V", "feedback": "Kecenderungan Visual: Representasi grafis memperkuat struktur memori Anda." },
+        { "text": "Membaca materi dengan bersuara atau mengulang penjelasan penting secara verbal", "type": "A", "feedback": "Kecenderungan Auditori: Suara dan resonansi verbal membantu memperkokoh daya ingat Anda." },
+        { "text": "Mempraktikkan langsung latihan soal dan merekonstruksi tahapan teknis di komputer", "type": "K", "feedback": "Kecenderungan Kinestetik: Memori motorik dan hands-on memudahkan Anda mengingat prosedur." }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Pos 3: Observasi Presentasi",
+      "question": "Ketika menyimak presentasi materi di kelas atau ruang seminar, apa fokus utama Anda?",
+      "options": [
+        { "text": "Memperhatikan tata letak slide, skema grafik, infografis, dan peragaan visual", "type": "V", "feedback": "Kecenderungan Visual: Anda menyerap informasi utama melalui kejelasan visual sajian." },
+        { "text": "Fokus pada intonasi suara, artikulasi, dan kedalaman penjelasan lisan penyaji", "type": "A", "feedback": "Kecenderungan Auditori: Anda peka terhadap ritme bahasa dan argumen verbal penyaji." },
+        { "text": "Menunggu saat demonstrasi interaktif atau kesempatan memegang perangkat praktik", "type": "K", "feedback": "Kecenderungan Kinestetik: Keterlibatan fisik dan interaktivitas menjaga konsentrasi Anda." }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Pos 4: Komunikasi Alur Kerja",
+      "question": "Saat diminta menjelaskan teknik pengeditan media kepada rekan sejawat, cara apa yang Anda pilih?",
+      "options": [
+        { "text": "Menggambar diagram alur proses atau menunjukkan tangkapan layar (screenshot)", "type": "V", "feedback": "Kecenderungan Visual: Anda menggunakan visualisasi sebagai bahasa komunikasi utama." },
+        { "text": "Menguraikan tahapan secara lisan dari awal hingga akhir dengan sistematis", "type": "A", "feedback": "Kecenderungan Auditori: Anda terbiasa menyusun kronologi ide secara verbal." },
+        { "text": "Duduk bersama di depan komputer dan mempraktikkan langsung langkahnya bersama mereka", "type": "K", "feedback": "Kecenderungan Kinestetik: Anda mengajar paling efektif melalui simulasi tindakan nyata." }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Pos 5: Minat Kreasi Multimedia",
+      "question": "Dalam konteks karya multimedia, proyek mana yang paling menggugah minat Anda?",
+      "options": [
+        { "text": "Mendesain poster visual, ilustrasi digital, atau tata letak majalah digital", "type": "V", "feedback": "Kecenderungan Visual: Anda memiliki kepekaan tinggi terhadap estetika ruang dan bentuk." },
+        { "text": "Memproduksi rekaman audio, scoring musik, podcast edukatif, atau penataan suara", "type": "A", "feedback": "Kecenderungan Auditori: Anda memiliki kepekaan mendalam terhadap tata suara dan akustik." },
+        { "text": "Membuat game interaktif, simulasi 3D, atau aplikasi multimedia yang dapat digerakkan", "type": "K", "feedback": "Kecenderungan Kinestetik: Anda antusias menciptakan pengalaman interaktif dinamis." }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Pos 6: Peran Kolaborasi Tim",
+      "question": "Ketika mengerjakan proyek produksi multimedia dalam kelompok, peran apa yang ingin Anda ambil?",
+      "options": [
+        { "text": "Penata artistik visual, desain layout, dan penyelarasan identitas grafis", "type": "V", "feedback": "Kecenderungan Visual: Anda mengontrol aspek visual agar konsisten dan memikat." },
+        { "text": "Penata suara (sound designer), narator/pengisi suara, atau komunikator presentasi", "type": "A", "feedback": "Kecenderungan Auditori: Anda mengendalikan kualitas audio dan artikulasi pesan kelompok." },
+        { "text": "Integrator sistem teknis, pemrograman interaktif, atau perakit purwarupa produk", "type": "K", "feedback": "Kecenderungan Kinestetik: Anda unggul dalam merangkai mekanisme fungsional produk." }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Pos 7: Penerimaan Evaluasi (Feedback)",
+      "question": "Bentuk koreksi atau saran dari guru yang paling mudah Anda tindak lanjuti adalah...",
+      "options": [
+        { "text": "Tanda visual langsung pada karya, perbandingan visual sebelum vs sesudah", "type": "V", "feedback": "Kecenderungan Visual: Koreksi visual memudahkan Anda mengenali aspek perbaikan." },
+        { "text": "Diskusi evaluasi lisan dan penjelasan mendetail melalui percakapan langsung", "type": "A", "feedback": "Kecenderungan Auditori: Diskusi mendalam membantu Anda memahami alasan di balik kritik." },
+        { "text": "Demonstrasi langsung di depan layar dengan memandu tangan Anda melakukan perbaikan", "type": "K", "feedback": "Kecenderungan Kinestetik: Anda belajar memperbaiki kesalahan lewat tindakan nyata." }
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Pos 8: Eksplorasi Teori & Estetika",
+      "question": "Ketika mempelajari teori harmoni warna dan komposisi gambar, Anda lebih menikmati...",
+      "options": [
+        { "text": "Menganalisis skema palet warna, lingkaran warna, dan contoh galeri karya terpilih", "type": "V", "feedback": "Kecenderungan Visual: Mempelajari contoh visual mengasah sensitivitas estetika Anda." },
+        { "text": "Mendengarkan kupasan audio atau penjelasan dosen tentang filosofi dan psikologi warna", "type": "A", "feedback": "Kecenderungan Auditori: Penjelasan filosofis verbal membuka perspektif konseptual Anda." },
+        { "text": "Mencampur warna, menggeser slider saturasi, dan melihat perubahan warna secara langsung", "type": "K", "feedback": "Kecenderungan Kinestetik: Anda memahami prinsip warna melalui manipulasi instrumen kerja." }
+      ]
+    },
+    {
+      "id": 9,
+      "category": "Pos 9: Pemecahan Masalah (Troubleshooting)",
+      "question": "Saat perangkat lunak multimedia Anda mengalami pesan error atau kendala teknis...",
+      "options": [
+        { "text": "Mencari artikel panduan bergambar atau bagan solusi pemecahan masalah", "type": "V", "feedback": "Kecenderungan Visual: Anda mengandalkan dokumen terstruktur untuk memandu penyelesaian." },
+        { "text": "Menghubungi mentor, rekan tim, atau menyimak diskusi komunitas untuk saran perbaikan", "type": "A", "feedback": "Kecenderungan Auditori: Komunikasi dua arah memberi solusi yang cepat bagi Anda." },
+        { "text": "Mencoba berbagai kombinasi tombol pengaturan dan menguji alternatif sampai berhasil", "type": "K", "feedback": "Kecenderungan Kinestetik: Anda berani mengambil inisiatif eksperimental berbasis aksi." }
+      ]
+    },
+    {
+      "id": 10,
+      "category": "Pos 10: Capaian Portofolio Belajar",
+      "question": "Bagi Anda, ukuran keberhasilan utama setelah mempelajari modul multimedia adalah...",
+      "options": [
+        { "text": "Mampu menghasilkan karya visual yang estetis, rapi, dan memiliki pesan visual kuat", "type": "V", "feedback": "Kecenderungan Visual: Nilai estetika visual menjadi tolak ukur kepuasan Anda." },
+        { "text": "Mampu merangkai narasi audio dan tata suara yang harmonis serta jernih", "type": "A", "feedback": "Kecenderungan Auditori: Kejernihan audio dan narasi menjadi tolok ukur kesempurnaan karya Anda." },
+        { "text": "Mampu membangun produk interaktif yang responsif dan dapat dioperasikan secara nyata", "type": "K", "feedback": "Kecenderungan Kinestetik: Fungsionalitas interaktif nyata adalah puncak kepuasan Anda." }
+      ]
+    }
+  ]
+}

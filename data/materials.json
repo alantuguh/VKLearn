@@ -1,0 +1,621 @@
+[
+  {
+    "id": 1,
+    "title": "Pengenalan Desain Grafis",
+    "category": "Desain Grafis",
+    "description": "Memahami dasar-dasar desain grafis, elemen visual, prinsip desain, dan tools yang digunakan dalam industri kreatif.",
+    "content": {
+      "visual": {
+        "type": "infographic",
+        "title": "Infografis & Video AI: Elemen & Prinsip Desain Grafis",
+        "body": "Desain grafis adalah seni komunikasi visual yang memadukan elemen garis, bentuk, tipografi, dan warna untuk menyampaikan pesan secara berdampak.",
+        "keyPoints": [
+          "🎨 5 Elemen Desain: Garis, Bentuk, Warna, Tekstur, dan Ruang Negatif",
+          "⚖️ 4 Prinsip Komposisi: Balance, Contrast, Emphasis, dan Unity",
+          "🖥️ Software Industri: Adobe Photoshop (Raster/Foto) & Adobe Illustrator (Vektor)",
+          "📐 Resolusi Standar: 72 DPI (Layar/Web) vs 300 DPI (Cetak Fisik Berkualitas)",
+          "🎯 Format Berkas: JPEG/PNG untuk web, SVG/AI untuk aset vektor scalable"
+        ],
+        "diagram": "Briefing → Sketsa & Wireframe → Digital Mockup → Review Klien → Final Export",
+        "aiVideo": {
+          "title": "Video Pembelajaran AI: Fundamental Desain Grafis & Komposisi Visual",
+          "presenter": "Maya Visualis (AI Specialist)",
+          "badge": "Video AI Explainer",
+          "duration": "03:15",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/YqQx75OPUvM",
+          "scenes": [
+            {
+              "time": 0,
+              "timestamp": "00:00",
+              "title": "Definisi & Esensi Komunikasi Visual",
+              "narration": "Halo rekan pembelajar! Saya Maya, instruktur AI Anda. Desain grafis bukan sekadar membuat gambar indah, melainkan seni pemecahan masalah secara visual melalui perpaduan tipografi, bentuk, dan warna.",
+              "keyVisual": "Komunikasi Visual = Teks + Gambar + Emosi + Tujuan Pesan",
+              "icon": "🎨",
+              "visualGraphic": "elements"
+            },
+            {
+              "time": 45,
+              "timestamp": "00:45",
+              "title": "Model Ruang Warna: RGB vs CMYK",
+              "narration": "Perhatikan perbedaan krusial model warna. Pada layar digital kita menggunakan model warna aditif RGB dengan resolusi 72 hingga 96 DPI. Namun untuk media cetak fisik, wajib beralih ke model warna subtraktif CMYK dengan resolusi minimal 300 DPI agar cetakan tajam.",
+              "keyVisual": "Layar Monitor (RGB 72 DPI) vs Cetak Fisik (CMYK 300 DPI)",
+              "icon": "🌈",
+              "visualGraphic": "colorspace"
+            },
+            {
+              "time": 90,
+              "timestamp": "01:30",
+              "title": "Prinsip Komposisi: Balance & Contrast",
+              "narration": "Karya desain yang profesional selalu menerapkan prinsip keseimbangan (balance), kontras yang tegas untuk hierarki baca, penekanan (emphasis) pada elemen utama, serta kesatuan (unity) yang mengikat tata letak.",
+              "keyVisual": "Hierarki Visual: Balance (Keseimbangan) • Contrast (Pembeda) • Emphasis (Fokus)",
+              "icon": "⚖️",
+              "visualGraphic": "composition"
+            },
+            {
+              "time": 140,
+              "timestamp": "02:20",
+              "title": "Alur Kerja Standar Industri Kreatif",
+              "narration": "Workflow profesional dimulai dari Analisis Briefing, eksplorasi sketsa wireframe manual, digitalisasi dengan software vektor dan raster, proses review klien, hingga tahap export file akhir siap rilis.",
+              "keyVisual": "Alur Kerja: Briefing ➔ Sketsa ➔ Digitalisasi ➔ Review ➔ Final Export",
+              "icon": "🚀",
+              "visualGraphic": "workflow"
+            }
+          ]
+        }
+      },
+      "auditory": {
+        "type": "narration",
+        "title": "Podcast: Dasar-Dasar Desain Grafis",
+        "transcript": "Selamat datang di podcast pembelajaran desain grafis! Hari ini kita akan membahas fundamental desain grafis. Desain grafis adalah proses komunikasi visual yang menggabungkan gambar, kata-kata, dan ide untuk menyampaikan informasi kepada audiens. Ada lima elemen dasar dalam desain grafis: pertama, Garis — elemen paling dasar yang membentuk struktur. Kedua, Bentuk — area tertutup yang dibuat oleh garis. Ketiga, Warna — yang memberikan mood dan emosi. Keempat, Tekstur — memberikan kesan permukaan. Kelima, Ruang — area kosong yang memberikan napas pada desain. Prinsip desain meliputi keseimbangan, kontras, penekanan, dan kesatuan. Software utama yang digunakan adalah Adobe Photoshop untuk editing foto, Adobe Illustrator untuk desain vektor, dan CorelDRAW sebagai alternatif populer.",
+        "duration": "5 menit",
+        "keyPoints": [
+          "Garis, Bentuk, Warna, Tekstur, dan Ruang adalah 5 pilar visual utama.",
+          "Model warna RGB digunakan untuk layar monitor, sedangkan CMYK untuk media cetak.",
+          "Gunakan resolusi 300 DPI untuk media cetak dan 72 DPI untuk web digital.",
+          "Prinsip Balance, Contrast, Emphasis, dan Unity membentuk hierarki keterbacaan.",
+          "Photoshop fokus pada gambar raster/bitmap, Illustrator fokus pada grafis vektor."
+        ]
+      },
+      "kinesthetic": {
+        "type": "interactive",
+        "title": "Aktivitas: Susun Alur Kerja Desain Grafis",
+        "instruction": "Susun langkah-langkah proses desain grafis dalam urutan alur kerja profesional yang tepat!",
+        "body": "Tarik dan susun kotak tahapan kerja berikut sesuai urutan produksi desain grafis profesional:",
+        "items": [
+          {
+            "id": "k1",
+            "text": "Briefing & Analisis Kebutuhan Klien",
+            "order": 1
+          },
+          {
+            "id": "k2",
+            "text": "Riset Visual & Moodboard Referensi",
+            "order": 2
+          },
+          {
+            "id": "k3",
+            "text": "Pembuatan Sketsa Kasar & Wireframe",
+            "order": 3
+          },
+          {
+            "id": "k4",
+            "text": "Eksekusi Digital Mockup (Photoshop/Illustrator)",
+            "order": 4
+          },
+          {
+            "id": "k5",
+            "text": "Review Kualitas & Revisi Desain",
+            "order": 5
+          },
+          {
+            "id": "k6",
+            "text": "Finalisasi, Separasi Warna & Export Berkas",
+            "order": 6
+          }
+        ],
+        "steps": [
+          {
+            "id": "k1",
+            "text": "Briefing & Analisis Kebutuhan Klien",
+            "order": 1
+          },
+          {
+            "id": "k2",
+            "text": "Riset Visual & Moodboard Referensi",
+            "order": 2
+          },
+          {
+            "id": "k3",
+            "text": "Pembuatan Sketsa Kasar & Wireframe",
+            "order": 3
+          },
+          {
+            "id": "k4",
+            "text": "Eksekusi Digital Mockup (Photoshop/Illustrator)",
+            "order": 4
+          },
+          {
+            "id": "k5",
+            "text": "Review Kualitas & Revisi Desain",
+            "order": 5
+          },
+          {
+            "id": "k6",
+            "text": "Finalisasi, Separasi Warna & Export Berkas",
+            "order": 6
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 2,
+    "title": "Dasar-Dasar Animasi",
+    "category": "Animasi",
+    "description": "Mempelajari prinsip-prinsip animasi, jenis animasi, dan teknik pembuatan animasi digital.",
+    "content": {
+      "visual": {
+        "type": "infographic",
+        "title": "Infografis & Video AI: 12 Prinsip Animasi Disney",
+        "body": "Animasi adalah seni menghidupkan objek statis menjadi seolah-olah bernyawa dan bergerak dinamis dengan ilusi optik 24 frame per detik.",
+        "keyPoints": [
+          "🎬 Squash & Stretch — Memberikan ilusi bobot massa, kelenturan, dan gravitasi",
+          "⏱️ Timing & Spacing — Jumlah frame dan jarak antar pose menentukan kepribadian gerak",
+          "🏃 Anticipation — Gerakan ancang-ancang sebelum aksi utama terjadi",
+          "🎭 Staging — Penataan elemen dan pose karakter agar pesan gerak mudah dipahami",
+          "🔄 Follow Through & Overlapping — Gerak ikutan organ tubuh saat karakter berhenti bergerak",
+          "📏 Klasifikasi Animasi: 2D Tradisional, 2D Digital Vector, 3D CGI, dan Stop Motion"
+        ],
+        "diagram": "Ide Cerita → Storyboard → Desain Karakter → Keyframe Utama → Inbetweening → Rendering",
+        "aiVideo": {
+          "title": "Video Pembelajaran AI: Membedah Prinsip Animasi Disney & Gerak Dinamis",
+          "presenter": "Nova Frame (AI Specialist)",
+          "badge": "Video AI Explainer",
+          "duration": "03:30",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/uDqjIdI4bF4",
+          "scenes": [
+            {
+              "time": 0,
+              "timestamp": "00:00",
+              "title": "Ilusi Gerak & Konsep Frame Rate (FPS)",
+              "narration": "Selamat datang di studio animasi AI! Animasi lahir dari ilusi optik mata manusia. Saat serangkaian gambar diam diputar pada kecepatan 24 frame per detik, otak kita mempersepsikannya sebagai gerak hidup yang bersambung.",
+              "keyVisual": "Persistence of Vision: 24 FPS (Frames Per Second) Menghasilkan Gerak Mulus",
+              "icon": "🎬",
+              "visualGraphic": "framerate"
+            },
+            {
+              "time": 50,
+              "timestamp": "00:50",
+              "title": "Squash & Stretch: Massa dan Kelenturan",
+              "narration": "Prinsip nomor satu adalah Squash and Stretch. Saat bola memantul ke lantai, ia memipih karena benturan dan meregang saat meluncur ke atas. Kuncinya adalah volume total objek harus selalu konstan.",
+              "keyVisual": "Squash (Benturan/Penekanan) & Stretch (Kecepatan) dengan Volume Tetap",
+              "icon": "⚽",
+              "visualGraphic": "squash"
+            },
+            {
+              "time": 100,
+              "timestamp": "01:40",
+              "title": "Anticipation & Follow Through",
+              "narration": "Sebelum melompat tinggi, karakter akan menekuk lutut ke bawah terlebih dahulu — itulah Anticipation. Ketika karakter mendarat, rambut dan bajunya masih terus bergerak — itulah Follow Through.",
+              "keyVisual": "Antisipasi (Persiapan Aksi) ➔ Aksi Utama ➔ Follow Through (Gerak Ikutan)",
+              "icon": "🏃",
+              "visualGraphic": "anticipation"
+            },
+            {
+              "time": 150,
+              "timestamp": "02:30",
+              "title": "Pipeline Produksi Animasi Profesional",
+              "narration": "Alur produksi diawali dari naskah dan storyboard, diteruskan pembuatan Keyframe oleh animator kunci, lalu gambar inbetweening untuk menghaluskan gerak, hingga compositing pencahayaan dan rendering.",
+              "keyVisual": "Pipeline: Storyboard ➔ Layout ➔ Keyframe ➔ Inbetween ➔ Compositing",
+              "icon": "🎞️",
+              "visualGraphic": "pipeline"
+            }
+          ]
+        }
+      },
+      "auditory": {
+        "type": "narration",
+        "title": "Podcast: Memahami Prinsip Animasi",
+        "transcript": "Halo para animator masa depan! Kali ini kita akan membahas dunia animasi. Animasi berasal dari kata anima yang berarti jiwa — jadi animasi adalah proses memberikan jiwa atau kehidupan pada objek mati. Ada 12 prinsip animasi yang dikembangkan oleh animator legendaris Disney, Frank Thomas dan Ollie Johnston. Prinsip pertama dan paling penting adalah Squash and Stretch, yang memberikan ilusi berat dan volume pada objek. Bayangkan bola yang memantul — saat menyentuh lantai, bola menjadi gepeng (squash), dan saat memantul ke atas, bola menjadi lonjong (stretch). Prinsip kedua adalah Anticipation, yaitu gerakan persiapan sebelum aksi utama. Misalnya, sebelum karakter melompat, dia akan menekuk lutut terlebih dahulu. Timing juga sangat penting — jumlah frame yang digunakan menentukan kecepatan dan mood gerakan. Jenis animasi meliputi animasi 2D tradisional, 2D digital, 3D, dan stop motion.",
+        "duration": "6 menit",
+        "keyPoints": [
+          "Animasi berarti memberikan jiwa atau ilusi hidup pada objek grafis mati.",
+          "12 Prinsip Animasi Disney dirumuskan oleh Frank Thomas dan Ollie Johnston.",
+          "Squash and Stretch menjaga ilusi kelenturan dengan mempertahankan volume objek konstan.",
+          "Anticipation memberikan petunjuk bawah sadar kepada audiens sebelum aksi besar dimulai.",
+          "Timing (jumlah frame) dan Spacing (jarak gambar) mengendalikan bobot dan emosi gerakan."
+        ]
+      },
+      "kinesthetic": {
+        "type": "interactive",
+        "title": "Aktivitas: Susun Alur Produksi Animasi",
+        "instruction": "Susun prinsip-prinsip tahapan produksi animasi dalam urutan pipeline yang benar!",
+        "body": "Tarik dan susun kotak proses pembuatan animasi berikut dari pra-produksi hingga purna-produksi:",
+        "items": [
+          {
+            "id": "a1",
+            "text": "Menulis Cerita, Skenario & Rekaman Suara Awal",
+            "order": 1
+          },
+          {
+            "id": "a2",
+            "text": "Membuat Storyboard & Animatic Waktu",
+            "order": 2
+          },
+          {
+            "id": "a3",
+            "text": "Desain Karakter & Model Sheet Turnaround",
+            "order": 3
+          },
+          {
+            "id": "a4",
+            "text": "Menggambar Pose Kunci Utama (Keyframe)",
+            "order": 4
+          },
+          {
+            "id": "a5",
+            "text": "Menambahkan Frame Antara (Inbetweening)",
+            "order": 5
+          },
+          {
+            "id": "a6",
+            "text": "Pewarnaan, Compositing Efek & Rendering Final",
+            "order": 6
+          }
+        ],
+        "steps": [
+          {
+            "id": "a1",
+            "text": "Menulis Cerita, Skenario & Rekaman Suara Awal",
+            "order": 1
+          },
+          {
+            "id": "a2",
+            "text": "Membuat Storyboard & Animatic Waktu",
+            "order": 2
+          },
+          {
+            "id": "a3",
+            "text": "Desain Karakter & Model Sheet Turnaround",
+            "order": 3
+          },
+          {
+            "id": "a4",
+            "text": "Menggambar Pose Kunci Utama (Keyframe)",
+            "order": 4
+          },
+          {
+            "id": "a5",
+            "text": "Menambahkan Frame Antara (Inbetweening)",
+            "order": 5
+          },
+          {
+            "id": "a6",
+            "text": "Pewarnaan, Compositing Efek & Rendering Final",
+            "order": 6
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 3,
+    "title": "Video Editing Profesional",
+    "category": "Video Editing",
+    "description": "Teknik editing video profesional, software yang digunakan, dan alur kerja produksi video.",
+    "content": {
+      "visual": {
+        "type": "infographic",
+        "title": "Infografis & Video AI: Alur Kerja Video Editing & Transisi Sinematik",
+        "body": "Video editing adalah seni menyusun potongan footage mentah menjadi rangkaian narasi visual yang harmonis, ritmis, dan menggugah emosi penonton.",
+        "keyPoints": [
+          "🎥 3 Babak Produksi: Pre-Production (Naskah), Production (Syuting), Post-Production (Editing)",
+          "✂️ Teknik Cut Sinematik: Hard Cut, J-Cut (Audio duluan), L-Cut (Audio menimpa), Match Cut",
+          "🎵 Struktur Multi-Track: Video B-Roll (V2/V3), Dialog Utama (A1), Sound FX (A2), Musik (A3)",
+          "🖥️ Software Industri: Adobe Premiere Pro, DaVinci Resolve Studio, Final Cut Pro",
+          "🎨 Color Correction (Menetralkan warna) vs Color Grading (Membangun mood emosional)",
+          "📹 Standar Output: MP4 H.264 / H.265 resolusi 1080p Full HD hingga 4K Ultra HD"
+        ],
+        "diagram": "Import & Sortir → Rough Assembly Cut → Fine Trim & Transisi → Color Grading → Audio Mix → Final Export",
+        "aiVideo": {
+          "title": "Video Pembelajaran AI: Alur Kerja Video Editing & Transisi Sinematik",
+          "presenter": "Kenzo Cut (AI Specialist)",
+          "badge": "Video AI Explainer",
+          "duration": "03:45",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/bXvN_g_r5pA",
+          "scenes": [
+            {
+              "time": 0,
+              "timestamp": "00:00",
+              "title": "Struktur Pascaproduksi & Manajemen File",
+              "narration": "Halo sineas kreatif! Saya Kenzo. Tahap pascaproduksi menentukan ritme dan dampak emosi video. Editor profesional selalu memulai dengan penamaan aset rapi, pembuatan file proxy untuk kelancaran playback, dan sinkronisasi audio eksternal.",
+              "keyVisual": "Manajemen Timeline: Multi-Track Video & Sinkronisasi Dual-System Audio",
+              "icon": "🎬",
+              "visualGraphic": "timeline"
+            },
+            {
+              "time": 55,
+              "timestamp": "00:55",
+              "title": "Teknik Pemotongan: J-Cut, L-Cut & B-Roll",
+              "narration": "Hindari potongan yang monoton! Gunakan J-Cut di mana audio adegan selanjutnya sudah terdengar sebelum videonya berganti, atau L-Cut di mana suara adegan lama berlanjut ke adegan baru untuk transisi dialog yang sangat mulus.",
+              "keyVisual": "J-Cut (Audio Masuk Lebih Awal) & L-Cut (Audio Bertahan Lebih Lama)",
+              "icon": "✂️",
+              "visualGraphic": "cuts"
+            },
+            {
+              "time": 110,
+              "timestamp": "01:50",
+              "title": "Color Correction vs Color Grading",
+              "narration": "Color Correction bertujuan menyeimbangkan exposure, kontras, dan white balance agar footage terlihat netral dan konsisten. Sedangkan Color Grading adalah sentuhan artistik untuk membangun mood visual tertentu seperti nuansa hangat atau teal-and-orange.",
+              "keyVisual": "Koreksi Netral (White Balance) ➔ Artistik Grading (Mood & LUT)",
+              "icon": "🎨",
+              "visualGraphic": "colorgrading"
+            },
+            {
+              "time": 165,
+              "timestamp": "02:45",
+              "title": "Audio Balancing & Export Format H.264",
+              "narration": "Kualitas suara menyumbang separuh kenikmatan menonton. Atur level vokal pada minus 12 dB dan instrumen musik pada minus 24 dB. Saat export, pilih format MP4 dengan kodek H.264 bitrate 15 hingga 20 Mbps untuk kualitas optimal di web.",
+              "keyVisual": "Mastering Level: Dialog (-12 dB) • Musik (-24 dB) • Format H.264 MP4",
+              "icon": "🚀",
+              "visualGraphic": "export"
+            }
+          ]
+        }
+      },
+      "auditory": {
+        "type": "narration",
+        "title": "Podcast: Teknik Video Editing",
+        "transcript": "Selamat datang di podcast video editing! Hari ini kita membahas seni mengedit video. Video editing terbagi dalam tiga tahap utama. Tahap pertama adalah Pre-Production — di sini kita merencanakan segala sesuatu: menulis naskah, membuat storyboard, dan menyiapkan shot list. Tahap kedua adalah Production — proses pengambilan gambar atau syuting. Tahap ketiga dan yang paling kita fokuskan adalah Post-Production — proses editing. Dalam editing, ada beberapa teknik transisi dasar. Cut adalah perpindahan langsung antar shot — ini yang paling sering digunakan. Dissolve adalah transisi halus di mana satu shot perlahan berganti ke shot berikutnya. Fade In dan Fade Out digunakan untuk membuka atau mengakhiri scene. Software populer untuk video editing antara lain Adobe Premiere Pro yang merupakan standar industri, DaVinci Resolve yang gratis namun sangat powerful terutama untuk color grading, dan Final Cut Pro untuk pengguna Mac.",
+        "duration": "6 menit",
+        "keyPoints": [
+          "Pre-Production, Production, dan Post-Production adalah trilogi pembuatan video.",
+          "J-Cut dan L-Cut adalah teknik transisi audio-video kunci untuk narasi sinematik.",
+          "Color Correction menyeimbangkan footage, Color Grading memberikan gaya artistik.",
+          "Audio mixing yang tepat memisahkan level dialog (-12 dB) dan musik pengiring (-24 dB).",
+          "Adobe Premiere Pro dan DaVinci Resolve adalah software standar industri video editing."
+        ]
+      },
+      "kinesthetic": {
+        "type": "interactive",
+        "title": "Aktivitas: Susun Alur Post-Production Video",
+        "instruction": "Susun langkah-langkah post-production video dalam urutan alur kerja editing yang tepat!",
+        "body": "Tarik dan susun tahapan penyuntingan video berikut dari impor file hingga ekspor akhir:",
+        "items": [
+          {
+            "id": "v1",
+            "text": "Import, Rename & Logging Klip Footage",
+            "order": 1
+          },
+          {
+            "id": "v2",
+            "text": "Rough Assembly Cut (Penyusunan Alur Kasar)",
+            "order": 2
+          },
+          {
+            "id": "v3",
+            "text": "Fine Cut, Trimming & Sinkronisasi B-Roll",
+            "order": 3
+          },
+          {
+            "id": "v4",
+            "text": "Penyisipan Transisi Sinematik & Motion Graphic",
+            "order": 4
+          },
+          {
+            "id": "v5",
+            "text": "Color Correction & Color Grading Visual",
+            "order": 5
+          },
+          {
+            "id": "v6",
+            "text": "Audio Mixing, Balancing & Sound FX",
+            "order": 6
+          },
+          {
+            "id": "v7",
+            "text": "Render & Export Master Video (H.264 MP4)",
+            "order": 7
+          }
+        ],
+        "steps": [
+          {
+            "id": "v1",
+            "text": "Import, Rename & Logging Klip Footage",
+            "order": 1
+          },
+          {
+            "id": "v2",
+            "text": "Rough Assembly Cut (Penyusunan Alur Kasar)",
+            "order": 2
+          },
+          {
+            "id": "v3",
+            "text": "Fine Cut, Trimming & Sinkronisasi B-Roll",
+            "order": 3
+          },
+          {
+            "id": "v4",
+            "text": "Penyisipan Transisi Sinematik & Motion Graphic",
+            "order": 4
+          },
+          {
+            "id": "v5",
+            "text": "Color Correction & Color Grading Visual",
+            "order": 5
+          },
+          {
+            "id": "v6",
+            "text": "Audio Mixing, Balancing & Sound FX",
+            "order": 6
+          },
+          {
+            "id": "v7",
+            "text": "Render & Export Master Video (H.264 MP4)",
+            "order": 7
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 4,
+    "title": "Audio Editing & Produksi",
+    "category": "Audio Editing",
+    "description": "Memahami konsep audio digital, teknik recording, editing, dan mixing audio untuk keperluan multimedia.",
+    "content": {
+      "visual": {
+        "type": "infographic",
+        "title": "Infografis & Video AI: Anatomi Audio Digital & Studio Mixing",
+        "body": "Audio adalah denyut nadi karya multimedia. Kualitas audio yang jernih dan berkarakter meningkatkan keterlibatan emosional dan pemahaman audiens secara drastis.",
+        "keyPoints": [
+          "🎤 4 Komponen Suara: Voice Over (Dialog), Background Music, Sound Effects (SFX), Ambience",
+          "📊 Sample Rate: 44.1 kHz (Standar CD/Musik), 48 kHz (Standar Video/Film), 96 kHz (Hi-Res Audio)",
+          "🎚️ Bit Depth Dinamis: 16-bit (96 dB range), 24-bit (144 dB profesional tanpa noise floor)",
+          "🔊 Pemrosesan Rantai Suara: Noise Gate/Denoise ➔ High-Pass EQ ➔ Compressor ➔ Reverb",
+          "🎧 Software Produksi: Audacity (Gratis & Open Source), Adobe Audition, Reaper, FL Studio",
+          "📁 Format Audio: WAV (Lossless tanpa kompresi), MP3 (Lossy 320 kbps streaming ringan)"
+        ],
+        "diagram": "Persiapan Mic → Recording Take → Denoising → Equalizer & Compressor → Mastering Volume → Final Export",
+        "aiVideo": {
+          "title": "Video Pembelajaran AI: Anatomi Audio Digital & Rantai Pemrosesan Suara",
+          "presenter": "Elena Sound (AI Specialist)",
+          "badge": "Video AI Explainer",
+          "duration": "03:20",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/5tLz9o6Y2bE",
+          "scenes": [
+            {
+              "time": 0,
+              "timestamp": "00:00",
+              "title": "Gelombang Suara Fisik Menjadi Sinyal Digital",
+              "narration": "Selamat datang di studio audio AI! Saya Elena. Gelombang suara adalah getaran molekul udara yang ditangkap diafragma mikrofon, diubah menjadi tegangan listrik analog, lalu disampling menjadi deretan angka biner nol dan satu.",
+              "keyVisual": "Konversi Analog-to-Digital: Mikrofon ➔ Preamp ➔ ADC Sampling ➔ Audio File",
+              "icon": "🎙️",
+              "visualGraphic": "adc"
+            },
+            {
+              "time": 50,
+              "timestamp": "00:50",
+              "title": "Sample Rate (48 kHz) dan Bit Depth (24-bit)",
+              "narration": "Sample rate menentukan rentang frekuensi yang mampu ditangkap. Standar industri multimedia adalah 48.000 sampel per detik. Sedangkan Bit depth 24-bit menyediakan ruang dinamika hingga 144 desibel agar rekaman tidak mudah pecah atau clipping.",
+              "keyVisual": "Standar Video: 48 kHz / 24-bit (Mencegah Distorsi & Memaksimalkan Kejernihan)",
+              "icon": "📊",
+              "visualGraphic": "samplerate"
+            },
+            {
+              "time": 100,
+              "timestamp": "01:40",
+              "title": "Rantai Efek: Denoise, EQ, & Compression",
+              "narration": "Langkah pertama adalah Noise Reduction untuk menghilangkan desis latar. Lanjutkan dengan Equalizer untuk memotong frekuensi dengung di bawah 80 Hertz, lalu Compressor untuk meratakan volume suara antara bisikan dan teriakan.",
+              "keyVisual": "Signal Chain: Denoise ➔ High-Pass Filter EQ ➔ Parametric EQ ➔ Compressor",
+              "icon": "🎚️",
+              "visualGraphic": "signalchain"
+            },
+            {
+              "time": 150,
+              "timestamp": "02:30",
+              "title": "Mastering Limiter & Export Format Final",
+              "narration": "Tahap akhir adalah mastering. Gunakan Brickwall Limiter pada minus 1 dB True Peak agar suara tidak mengalami distorsi saat dikonversi di internet. Simpan master dalam format WAV 24-bit tanpa kompresi, dan MP3 320 kbps untuk publikasi.",
+              "keyVisual": "Mastering: Peak Limiter (-1 dBFS) ➔ Ekspor WAV Master & MP3 320kbps",
+              "icon": "🎧",
+              "visualGraphic": "mastering"
+            }
+          ]
+        }
+      },
+      "auditory": {
+        "type": "narration",
+        "title": "Podcast: Mengenal Audio Digital",
+        "transcript": "Halo! Selamat datang di podcast tentang audio digital! Audio adalah salah satu elemen terpenting dalam multimedia. Bayangkan menonton film tanpa suara — pasti sangat berbeda pengalamannya. Dalam audio digital, ada beberapa konsep penting yang harus dipahami. Pertama, Sample Rate — ini adalah jumlah sampel yang diambil per detik. Standar CD adalah 44.100 Hz atau 44.1 kHz, artinya ada 44.100 sampel per detik. Untuk video, standarnya adalah 48 kHz. Semakin tinggi sample rate, semakin akurat representasi suaranya. Kedua, Bit Depth — menentukan range dinamis audio. 16-bit adalah standar CD, sedangkan 24-bit digunakan untuk rekaman profesional. Teknik editing audio meliputi Noise Reduction untuk menghilangkan suara tidak diinginkan, Equalization atau EQ untuk mengatur frekuensi, Compression untuk menyeimbangkan volume, dan Reverb untuk menambahkan efek ruangan. Software yang bisa digunakan mulai dari Audacity yang gratis dan open-source, Adobe Audition untuk profesional, hingga FL Studio untuk produksi musik.",
+        "duration": "5 menit",
+        "keyPoints": [
+          "Suara adalah komponen emosional utama yang melengkapi visualisasi multimedia.",
+          "Sample rate 48 kHz merupakan standar wajib untuk audio video dan multimedia interaktif.",
+          "Bit depth 24-bit memberikan resolusi dinamis lebih luas dibanding 16-bit standar CD.",
+          "Gunakan Noise Reduction, Parametric EQ, dan Compressor sebagai rantai olah vokal.",
+          "Format WAV menyimpan kualitas audio asli (lossless), MP3 cocok untuk distribusi ringan."
+        ]
+      },
+      "kinesthetic": {
+        "type": "interactive",
+        "title": "Aktivitas: Susun Alur Produksi Audio",
+        "instruction": "Susun langkah-langkah produksi audio rekaman dalam urutan alur studio yang benar!",
+        "body": "Tarik dan susun tahapan pengolahan audio studio berikut dari penataan mikrofon hingga mastering:",
+        "items": [
+          {
+            "id": "au1",
+            "text": "Persiapan Akustik Ruang & Setup Mikrofon",
+            "order": 1
+          },
+          {
+            "id": "au2",
+            "text": "Proses Perekaman Audio (Take Management)",
+            "order": 2
+          },
+          {
+            "id": "au3",
+            "text": "Editing Klip (Pembersihan Breath & Silences)",
+            "order": 3
+          },
+          {
+            "id": "au4",
+            "text": "Penerapan Noise Reduction (Spectral Denoise)",
+            "order": 4
+          },
+          {
+            "id": "au5",
+            "text": "Pengolahan Sinyal EQ & Dynamic Compression",
+            "order": 5
+          },
+          {
+            "id": "au6",
+            "text": "Mastering Akhir (True Peak Limiter -1 dBFS)",
+            "order": 6
+          },
+          {
+            "id": "au7",
+            "text": "Export Master (WAV 24-bit & MP3 320 kbps)",
+            "order": 7
+          }
+        ],
+        "steps": [
+          {
+            "id": "au1",
+            "text": "Persiapan Akustik Ruang & Setup Mikrofon",
+            "order": 1
+          },
+          {
+            "id": "au2",
+            "text": "Proses Perekaman Audio (Take Management)",
+            "order": 2
+          },
+          {
+            "id": "au3",
+            "text": "Editing Klip (Pembersihan Breath & Silences)",
+            "order": 3
+          },
+          {
+            "id": "au4",
+            "text": "Penerapan Noise Reduction (Spectral Denoise)",
+            "order": 4
+          },
+          {
+            "id": "au5",
+            "text": "Pengolahan Sinyal EQ & Dynamic Compression",
+            "order": 5
+          },
+          {
+            "id": "au6",
+            "text": "Mastering Akhir (True Peak Limiter -1 dBFS)",
+            "order": 6
+          },
+          {
+            "id": "au7",
+            "text": "Export Master (WAV 24-bit & MP3 320 kbps)",
+            "order": 7
+          }
+        ]
+      }
+    }
+  }
+]

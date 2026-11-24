@@ -1,0 +1,284 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "level": 1,
+      "category": "Desain Grafis",
+      "question": "Model warna yang paling tepat digunakan untuk karya desain grafis yang akan dicetak di percetakan adalah...",
+      "options": [
+        "RGB (Red, Green, Blue)",
+        "CMYK (Cyan, Magenta, Yellow, Key/Black)",
+        "Hexadecimal Color",
+        "HSB (Hue, Saturation, Brightness)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "CMYK adalah model warna subtraktif yang digunakan khusus untuk media cetak fisik (tinta), sedangkan RGB digunakan untuk tampilan layar digital yang memancarkan cahaya."
+    },
+    {
+      "id": 2,
+      "level": 1,
+      "category": "Desain Grafis",
+      "question": "Gambar yang tersusun dari sekumpulan titik piksel dan akan pecah (blur) saat diperbesar melebihi resolusinya disebut gambar jenis...",
+      "options": [
+        "Vektor",
+        "Bitmap (Raster)",
+        "Wireframe",
+        "Scalable Vector Graphics (SVG)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Gambar Bitmap (seperti JPEG, PNG) berbasis titik piksel dan terikat resolusi, sehingga akan pecah saat diperbesar. Sebaliknya, gambar Vektor berbasis perhitungan matematis sehingga tidak pernah pecah."
+    },
+    {
+      "id": 3,
+      "level": 1,
+      "category": "Desain Grafis",
+      "question": "Berapa standar resolusi minimum (DPI/PPI) yang direkomendasikan untuk karya desain cetak berkualitas tinggi?",
+      "options": [
+        "72 DPI",
+        "150 DPI",
+        "300 DPI",
+        "600 DPI"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Standar industri untuk cetak tajam (brosur, majalah, poster) adalah 300 DPI, sedangkan untuk tampilan layar digital atau website biasanya cukup 72 hingga 96 DPI."
+    },
+    {
+      "id": 4,
+      "level": 1,
+      "category": "Desain Grafis",
+      "question": "Prinsip desain grafis yang menciptakan titik fokus utama (focal point) agar mata audiens tertuju pertama kali ke bagian tersebut disebut...",
+      "options": [
+        "Emphasis (Penekanan)",
+        "Unity (Kesatuan)",
+        "Rhythm (Irama)",
+        "Proportion (Proporsi)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Emphasis atau penekanan bertujuan menarik perhatian audiens ke elemen paling penting dalam komposisi desain dengan kontras ukuran, warna, atau posisi."
+    },
+    {
+      "id": 5,
+      "level": 1,
+      "category": "Desain Grafis",
+      "question": "Format file gambar yang mendukung transparansi latar belakang (alpha channel) tanpa kehilangan kualitas adalah...",
+      "options": [
+        "JPEG / JPG",
+        "BMP",
+        "PNG",
+        "RAW"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "PNG (Portable Network Graphics) menggunakan kompresi lossless dan mendukung transparansi 24-bit/32-bit (alpha channel), sangat ideal untuk elemen logo dan web."
+    },
+    {
+      "id": 6,
+      "level": 1,
+      "category": "Animasi",
+      "question": "Prinsip animasi Disney yang memberikan ilusi kelenturan, berat, dan massa pada benda saat bergerak atau bertabrakan adalah...",
+      "options": [
+        "Anticipation",
+        "Squash and Stretch",
+        "Follow Through",
+        "Staging"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Squash and Stretch adalah prinsip utama animasi yang membuat benda tampak hidup dan memiliki massa, misalnya bola karet yang memipih saat membentur lantai dan memanjang saat melenting."
+    },
+    {
+      "id": 7,
+      "level": 1,
+      "category": "Animasi",
+      "question": "Gerakan ancang-ancang atau persiapan yang dilakukan karakter sebelum melakukan tindakan utama (seperti menekuk lutut sebelum melompat) dinamakan...",
+      "options": [
+        "Exaggeration",
+        "Anticipation",
+        "Secondary Action",
+        "Slow In and Slow Out"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Anticipation membantu penonton mengantisipasi apa yang akan terjadi selanjutnya pada karakter, memberikan waktu bagi penonton untuk memahami tindakan yang akan datang."
+    },
+    {
+      "id": 8,
+      "level": 1,
+      "category": "Video Editing",
+      "question": "Tahapan produksi video di mana proses editing, penambahan efek visual, color grading, dan penataan suara dilakukan adalah...",
+      "options": [
+        "Pra-produksi (Pre-production)",
+        "Produksi (Production)",
+        "Pasca-produksi (Post-production)",
+        "Distribusi (Distribution)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Pasca-produksi (Post-production) mencakup semua pekerjaan pengolahan rekaman video mentah setelah proses syuting selesai, termasuk editing video, efek, audio mixing, dan rendering."
+    },
+    {
+      "id": 9,
+      "level": 1,
+      "category": "Video Editing",
+      "question": "Jenis transisi video paling mendasar dan natural yang merupakan pemotongan langsung dari satu klip ke klip lainnya tanpa efek visual khusus disebut...",
+      "options": [
+        "Cut",
+        "Dissolve",
+        "Wipe",
+        "Iris"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Cut (Hard Cut) adalah jenis pergantian shot paling umum dan esensial dalam sinematografi, memindahkan perhatian penonton secara instan dari satu sudut ke sudut lain."
+    },
+    {
+      "id": 10,
+      "level": 1,
+      "category": "Audio Editing",
+      "question": "Alat pengolah audio yang berfungsi untuk menaikkan (boost) atau memotong (cut) frekuensi suara tertentu (bass, mid, treble) adalah...",
+      "options": [
+        "Compressor",
+        "Equalizer (EQ)",
+        "Reverb",
+        "Limiter"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Equalizer (EQ) membagi spektrum audio ke dalam pita frekuensi dan memungkinkan editor mengatur keseimbangan antara nada rendah (bass), tengah (vokal), dan tinggi (treble)."
+    },
+    {
+      "id": 101,
+      "level": 2,
+      "category": "Desain Grafis",
+      "question": "Sebuah materi visual digital dirancang menggunakan ruang warna Adobe RGB (1998). Ketika diekspor ke JPEG untuk website tanpa proses konversi color profile ke sRGB, apa anomali visual yang paling mungkin terjadi pada browser standar?",
+      "options": [
+        "Gambar mengalami pixelation parah karena resolusi layar lebih rendah dari resolusi cetak",
+        "Warna terlihat kusam, pucat, dan terdesaturasi karena koordinat gamut warna yang luas salah dipetakan ke ruang sRGB yang lebih sempit",
+        "Muncul artefak distorsi moiré dan artefak garis hitam pekat pada seluruh bidang gradien",
+        "Gambar otomatis diubah menjadi monokrom (grayscale) karena browser tidak mendukung bit depth di atas 8-bit"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Adobe RGB memiliki cakupan gamut warna yang jauh lebih luas daripada sRGB. Jika gambar dengan metadata Adobe RGB dibuka pada browser atau layar standar sRGB tanpa color management/profile conversion, nilai koordinat warna akan terkompresi secara keliru sehingga saturasi warna tampak pudar dan kusam (washed out)."
+    },
+    {
+      "id": 102,
+      "level": 2,
+      "category": "Desain Grafis",
+      "question": "Dalam tipografi profesional dan tata letak editorial tingkat lanjut, penyesuaian jarak spesifik antar-pasangan dua huruf tertentu yang saling berdampingan (seperti antara 'A' dan 'V' atau 'T' dan 'o') agar ruang kosong tampak proporsional secara optis disebut...",
+      "options": [
+        "Tracking",
+        "Kerning",
+        "Leading",
+        "Baseline Shift"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Kerning adalah pengaturan jarak spasi mikro secara individual antar-pasangan huruf spesifik guna menyeimbangkan ilusi optik ruang kosong. Berbeda dengan Tracking yang mengatur kerapatan seluruh baris kalimat, atau Leading yang mengatur jarak vertikal antar-baris (line spacing)."
+    },
+    {
+      "id": 103,
+      "level": 2,
+      "category": "Animasi",
+      "question": "Seorang animator sedang membuat gerakan karakter mengambil cangkir di atas meja. Agar posisi telapak tangan karakter menempel stabil tepat pada cangkir sementara posisi siku dan bahu otomatis menyesuaikan posisinya secara dinamis, sistem rigging apa yang paling tepat digunakan?",
+      "options": [
+        "Forward Kinematics (FK)",
+        "Inverse Kinematics (IK)",
+        "Euler Angle Rotation",
+        "Morph Target Blending"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Inverse Kinematics (IK) bekerja dari ujung rantai tulang (end-effector / tangan) ke pangkal rantai (bahu). Ketika posisi tangan ditentukan mengunci pada suatu koordinat objek, rotasi sendi-sendi sebelumnya (siku dan lengan) akan dihitung secara otomatis oleh solver IK."
+    },
+    {
+      "id": 104,
+      "level": 2,
+      "category": "Animasi",
+      "question": "Sebuah bola bowling logam berat dan bola tenis karet elastis dijatuhkan bersamaan dari ketinggian yang sama ke lantai keras. Berdasarkan prinsip 'Timing & Spacing' dan 'Squash & Stretch', perlakuan animasi yang paling akurat secara fisik adalah...",
+      "options": [
+        "Bola bowling memiliki deformasi bentuk (squash) yang sangat minim dan memantul sangat rendah dengan dissipasi energi cepat, sedangkan bola tenis mengalami deformasi squash signifikan dan serangkaian pantulan berulang yang memudar bertahap",
+        "Bola bowling membutuhkan frame inbetween pantulan naik yang lebih banyak dibanding bola tenis karena massa yang besar menghasilkan momentum pantul ke atas yang lebih tinggi",
+        "Bola tenis tidak boleh mengalami deformasi squash karena massa yang ringan tidak mampu mendistorsi material karet saat bertabrakan dengan lantai",
+        "Kedua bola harus menggunakan timing spacing yang identik karena hukum percepatan gravitasi mengabaikan massa benda padat"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Kepadatan massa dan elastisitas material sangat memengaruhi Squash & Stretch serta pantulan. Benda padat kaku (bola bowling) menyerap benturan tanpa perubahan bentuk signifikan dan nyaris tidak memantul, sedangkan bola karet tenis menunjukkan distorsi kompresi elastis saat menabrak lantai dan memantul berkali-kali dengan spacing melambat di puncak lengkungan pantulan."
+    },
+    {
+      "id": 105,
+      "level": 2,
+      "category": "Video Editing",
+      "question": "Dalam proses kompresi video inter-frame berbasis struktur GOP (Group of Pictures), tipe frame manakah yang dikompresi secara utuh dan independen tanpa mereferensikan data dari frame sebelum maupun sesudahnya?",
+      "options": [
+        "P-Frame (Predicted Frame)",
+        "B-Frame (Bi-directional Predictive Frame)",
+        "I-Frame (Intra-coded Frame / Keyframe)",
+        "D-Frame (Delta Frame)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "I-Frame (Intra-coded frame atau Keyframe) menyimpan seluruh informasi visual frame secara komprehensif layaknya gambar JPEG statis. Frame ini menjadi jangkar referensi bagi P-Frame (perubahan maju) dan B-Frame (interpolasi dua arah) dalam struktur kompresi GOP."
+    },
+    {
+      "id": 106,
+      "level": 2,
+      "category": "Video Editing",
+      "question": "Seorang videografer merekam adegan aksi cepat pada frame rate 60 fps untuk keperluan slow motion halus pada timeline proyek 24 fps. Berdasarkan kaidah sinematografi '180-Degree Shutter Rule', berapakah Shutter Speed kamera yang harus diatur?",
+      "options": [
+        "1/30 detik",
+        "1/60 detik",
+        "1/120 detik (atau 1/125 detik)",
+        "1/240 detik"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Kaidah 180-Degree Shutter Rule merumuskan: Shutter Speed = 1 / (2 × Frame Rate). Untuk perekaman 60 fps, kecepatan rana yang ideal adalah 1 / (2 × 60) = 1/120 detik (pada kamera mirrorless/DSLR umumnya dipilih nilai terdekat 1/125 detik) guna menghasilkan motion blur sinematik yang natural."
+    },
+    {
+      "id": 107,
+      "level": 2,
+      "category": "Video Editing",
+      "question": "Sebuah video berdurasi tepat 10 menit (600 detik) dirender menggunakan codec H.264 dengan Constant Bitrate (CBR) video sebesar 12 Mbps dan audio AAC stereo 256 kbps (0.256 Mbps). Berapakah perkiraan ukuran file akhir video tersebut?",
+      "options": [
+        "Sekitar 460 MB",
+        "Sekitar 919 MB",
+        "Sekitar 1.84 GB",
+        "Sekitar 7.35 GB"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Total data rate = 12 Mbps (video) + 0.256 Mbps (audio) = 12.256 Megabit per detik. Total bit dalam 600 detik = 12.256 × 600 = 7.353,6 Megabits. Dikonversi ke MegaBytes (1 Byte = 8 bits): 7.353,6 / 8 = 919,2 MB (sekitar 919 MB)."
+    },
+    {
+      "id": 108,
+      "level": 2,
+      "category": "Audio Editing",
+      "question": "Dalam standar mastering audio digital modern untuk platform streaming (seperti Spotify dan YouTube), pengukuran kenyaringan suara terintegrasi distandarkan menggunakan parameter LUFS. Berapakah target Integrated Loudness standar yang diterapkan agar volume audio tidak terkena reduksi penalti otomatis?",
+      "options": [
+        "0 LUFS",
+        "-6 LUFS",
+        "-14 LUFS s.d. -16 LUFS",
+        "-24 LUFS"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Platform streaming global seperti Spotify dan YouTube menetapkan standar target normalisasi kenyaringan pada -14 LUFS (dan Apple Music sekitar -16 LUFS). Jika master audio dibuat terlalu keras (misalnya -8 LUFS), sistem otomatis platform akan menurunkan gain keseluruhan secara drastis."
+    },
+    {
+      "id": 109,
+      "level": 2,
+      "category": "Audio Editing",
+      "question": "Saat merekam drum snare menggunakan teknik dua mikrofon (satu di atas membran atas dan satu di bawah membran bawah), masalah audio apa yang pasti terjadi jika sakelar pembalik polaritas (Phase Invert) pada channel mikrofon bawah tidak diaktifkan?",
+      "options": [
+        "Terjadi distorsi harmonik analog akibat impedansi kabel XLR",
+        "Terjadi pembatalan fase (Phase Cancellation / Comb Filtering) yang melenyapkan frekuensi rendah sehingga suara pukulan snare menjadi tipis dan hampa",
+        "Timbul delay digital lebih dari 100 ms pada rekaman audio",
+        "Sinyal audio otomatis ter-mute oleh pre-amplifier mixer"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Saat stik memukul membran snare atas ke arah bawah, mic atas menangkap gelombang kompresi sedangkan mic bawah menangkap gelombang peregangan (berbeda polaritas 180 derajat). Jika polaritas mic bawah tidak dibalik (inverted), gelombang kedua mic akan saling menghilangkan (phase cancellation), terutama pada area frekuensi bass/body drum."
+    },
+    {
+      "id": 110,
+      "level": 2,
+      "category": "Studi Kasus Multimedia",
+      "question": "Sebuah tim pengembang multimedia merancang aplikasi interaktif berbasis web menggunakan model pengembangan PIE. Tindakan manakah yang paling mencerminkan keberhasilan pelaksanaan fase 'Planning' sebelum melangkah ke 'Implementation'?",
+      "options": [
+        "Langsung menulis kode JavaScript dan membuat animasi grafis tanpa perlu dokumentasi",
+        "Menyusun dokumen storyboard terperinci, analisis audiens sasaran, pemetaan arsitektur informasi, serta verifikasi legalitas lisensi seluruh aset multimedia",
+        "Melakukan survei kepuasan pelanggan terhadap produk yang sudah dipublikasikan",
+        "Menghapus seluruh file backup dan menyerahkan revisi kode kepada klien"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Dalam model PIE (Planning, Implementation, Evaluation), fase Planning adalah pondasi strategis yang meliputi penentuan tujuan instruksional, storyboard, penataan aset & hak cipta, serta spesifikasi arsitektur teknis agar tahap implementasi berjalan efektif tanpa risiko kesalahan desain yang fatal."
+    }
+  ]
+}
