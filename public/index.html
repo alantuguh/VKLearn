@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Platform pembelajaran multimedia interaktif dengan asesmen gaya belajar VAK (Visual, Auditory, Kinesthetic) dan model pengembangan instruksional PIE">
+  <title>MultimediaLearn — Pembelajaran Multimedia Adaptif VAK & Model PIE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#/" class="nav-logo" data-link>
+        <span class="logo-badge">VL</span>
+        <span class="logo-text">VAK<span class="logo-accent">Learn</span></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigasi">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#/" class="nav-link" data-link>Beranda</a></li>
+        <li><a href="#/game" class="nav-link nav-game-link" data-link>Game VAK</a></li>
+        <li><a href="#/materi" class="nav-link" data-link>Materi</a></li>
+        <li><a href="#/evaluasi" class="nav-link" data-link>Evaluasi</a></li>
+        <li><a href="#/tentang" class="nav-link" data-link>Tentang Model PIE</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="app" class="main-content">
+    <!-- Content rendered by JavaScript SPA router -->
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-col footer-col-brand">
+          <div class="footer-brand-title">
+            <h3>VAKLearn</h3>
+          </div>
+          <p>Sistem pembelajaran multimedia terpadu yang memadukan identifikasi modalitas belajar VAK (Visual, Auditori,
+            Kinestetik) dengan metodologi desain instruksional PIE (Planning, Implementation, Evaluation).</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigasi Halaman</h4>
+          <ul>
+            <li><a href="#/" data-link>Beranda & Panduan</a></li>
+            <li><a href="#/game" data-link>Game VAK</a></li>
+            <li><a href="#/materi" data-link>Modul Materi</a></li>
+            <li><a href="#/evaluasi" data-link>Uji Evaluasi Pemahaman</a></li>
+            <li><a href="#/tentang" data-link>Kerangka Kerja PIE</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Modalitas Belajar (VAK)</h4>
+          <ul>
+            <li><span class="dot-indicator dot-visual"></span> Visual (Spasial & Grafis)</li>
+            <li><span class="dot-indicator dot-auditory"></span> Auditori (Verbal & Suara)</li>
+            <li><span class="dot-indicator dot-kinesthetic"></span> Kinestetik (Praktik & Interaktif)</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Metodologi PIE</h4>
+          <ul>
+            <li><span class="dot-indicator dot-pie"></span> Planning (Perencanaan Instruksional)</li>
+            <li><span class="dot-indicator dot-pie"></span> Implementation (Penerapan Media)</li>
+            <li><span class="dot-indicator dot-pie"></span> Evaluation (Evaluasi Ketercapaian)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 VAKLearn</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/mario-game.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+
+</html>
