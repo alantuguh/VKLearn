@@ -1,0 +1,6 @@
+Baik, saya lanjutkan implementasi. Berdasarkan progress sebelumnya, yang tersisa adalah:
+
+1. **Update `app.js`** — locked level handling + reset progress button
+2. **Update `style.css`** — styles untuk locked, completed, status badge, dan next-level-preview
+
+Mari mulai:

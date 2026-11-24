@@ -1,0 +1,808 @@
+Created At: 2026-09-30T14:06:53+07:00
+Completed At: 2026-09-30T14:06:53+07:00
+File Path: `file:///c:/Users/lenovo/Documents/Antigrafity/public/css/style.css`
+Total Lines: 3818
+Total Bytes: 79699
+Showing lines 1 to 800
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+1: /* ========================================
+2:    DESIGN SYSTEM — MultimediaLearn VAK-PIE
+3:    ======================================== */
+4: 
+5: /* ---------- CSS Variables ---------- */
+6: :root {
+7:   /* Color Palette */
+8:   --bg-primary: #0a0e1a;
+9:   --bg-secondary: #111827;
+10:   --bg-card: rgba(17, 24, 39, 0.7);
+11:   --bg-glass: rgba(255, 255, 255, 0.05);
+12:   --bg-glass-hover: rgba(255, 255, 255, 0.1);
+13: 
+14:   --text-primary: #f1f5f9;
+15:   --text-secondary: #94a3b8;
+16:   --text-muted: #64748b;
+17: 
+18:   /* VAK Colors */
+19:   --visual-primary: #8b5cf6;
+20:   --visual-secondary: #a78bfa;
+21:   --visual-glow: rgba(139, 92, 246, 0.3);
+22: 
+23:   --auditory-primary: #06b6d4;
+24:   --auditory-secondary: #22d3ee;
+25:   --auditory-glow: rgba(6, 182, 212, 0.3);
+26: 
+27:   --kinesthetic-primary: #f97316;
+28:   --kinesthetic-secondary: #fb923c;
+29:   --kinesthetic-glow: rgba(249, 115, 22, 0.3);
+30: 
+31:   /* Accent */
+32:   --accent-primary: #3b82f6;
+33:   --accent-secondary: #60a5fa;
+34:   --accent-glow: rgba(59, 130, 246, 0.3);
+35: 
+36:   --success: #10b981;
+37:   --error: #ef4444;
+38:   --warning: #f59e0b;
+39: 
+40:   /* Gradients */
+41:   --gradient-hero: linear-gradient(135deg, #0a0e1a 0%, #1a1040 50%, #0a0e1a 100%);
+42:   --gradient-visual: linear-gradient(135deg, #8b5cf6, #6d28d9);
+43:   --gradient-auditory: linear-gradient(135deg, #06b6d4, #0891b2);
+44:   --gradient-kinesthetic: linear-gradient(135deg, #f97316, #ea580c);
+45:   --gradient-accent: linear-gradient(135deg, #3b82f6, #2563eb);
+46:   --gradient-card: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.02) 100%);
+47: 
+48:   /* Spacing */
+49:   --space-xs: 0.25rem;
+50:   --space-sm: 0.5rem;
+51:   --space-md: 1rem;
+52:   --space-lg: 1.5rem;
+53:   --space-xl: 2rem;
+54:   --space-2xl: 3rem;
+55:   --space-3xl: 4rem;
+56: 
+57:   /* Typography */
+58:   --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+59:   --font-mono: 'JetBrains Mono', monospace;
+60: 
+61:   /* Border Radius */
+62:   --radius-sm: 8px;
+63:   --radius-md: 12px;
+64:   --radius-lg: 16px;
+65:   --radius-xl: 24px;
+66:   --radius-full: 9999px;
+67: 
+68:   /* Shadows */
+69:   --shadow-sm: 0 2px 8px rgba(0,0,0,0.3);
+70:   --shadow-md: 0 4px 20px rgba(0,0,0,0.4);
+71:   --shadow-lg: 0 8px 40px rgba(0,0,0,0.5);
+72:   --shadow-glow-visual: 0 0 30px rgba(139, 92, 246, 0.2);
+73:   --shadow-glow-auditory: 0 0 30px rgba(6, 182, 212, 0.2);
+74:   --shadow-glow-kinesthetic: 0 0 30px rgba(249, 115, 22, 0.2);
+75: 
+76:   /* Transitions */
+77:   --transition-fast: 0.15s ease;
+78:   --transition-base: 0.3s ease;
+79:   --transition-slow: 0.5s ease;
+80: }
+81: 
+82: /* ---------- Reset & Base ---------- */
+83: *, *::before, *::after {
+84:   margin: 0;
+85:   padding: 0;
+86:   box-sizing: border-box;
+87: }
+88: 
+89: html {
+90:   scroll-behavior: smooth;
+91:   font-size: 16px;
+92: }
+93: 
+94: body {
+95:   font-family: var(--font-family);
+96:   background: var(--bg-primary);
+97:   color: var(--text-primary);
+98:   line-height: 1.7;
+99:   min-height: 100vh;
+100:   overflow-x: hidden;
+101: }
+102: 
+103: a {
+104:   text-decoration: none;
+105:   color: inherit;
+106: }
+107: 
+108: ul { list-style: none; }
+109: 
+110: img { max-width: 100%; display: block; }
+111: 
+112: button {
+113:   cursor: pointer;
+114:   font-family: var(--font-family);
+115:   border: none;
+116:   outline: none;
+117: }
+118: 
+119: /* ---------- Background Orbs ---------- */
+120: body::before,
+121: body::after {
+122:   content: '';
+123:   position: fixed;
+124:   border-radius: 50%;
+125:   filter: blur(120px);
+126:   z-index: -1;
+127:   pointer-events: none;
+128: }
+129: 
+130: body::before {
+131:   width: 600px;
+132:   height: 600px;
+133:   background: var(--visual-glow);
+134:   top: -200px;
+135:   right: -200px;
+136:   animation: float-orb 15s ease-in-out infinite;
+137: }
+138: 
+139: body::after {
+140:   width: 500px;
+141:   height: 500px;
+142:   background: var(--auditory-glow);
+143:   bottom: -150px;
+144:   left: -150px;
+145:   animation: float-orb 20s ease-in-out infinite reverse;
+146: }
+147: 
+148: @keyframes float-orb {
+149:   0%, 100% { transform: translate(0, 0) scale(1); }
+150:   33% { transform: translate(30px, -30px) scale(1.1); }
+151:   66% { transform: translate(-20px, 20px) scale(0.9); }
+152: }
+153: 
+154: /* ========================================
+155:    NAVBAR
+156:    ======================================== */
+157: .navbar {
+158:   position: fixed;
+159:   top: 0;
+160:   left: 0;
+161:   right: 0;
+162:   z-index: 1000;
+163:   background: rgba(10, 14, 26, 0.8);
+164:   backdrop-filter: blur(20px);
+165:   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+166:   transition: var(--transition-base);
+167: }
+168: 
+169: .navbar.scrolled {
+170:   background: rgba(10, 14, 26, 0.95);
+171:   box-shadow: var(--shadow-md);
+172: }
+173: 
+174: .nav-container {
+175:   max-width: 1200px;
+176:   margin: 0 auto;
+177:   padding: 0 var(--space-xl);
+178:   display: flex;
+179:   align-items: center;
+180:   justify-content: space-between;
+181:   height: 72px;
+182: }
+183: 
+184: .nav-logo {
+185:   display: flex;
+186:   align-items: center;
+187:   gap: var(--space-sm);
+188:   font-weight: 700;
+189:   font-size: 1.25rem;
+190:   transition: var(--transition-fast);
+191: }
+192: 
+193: .nav-logo:hover { transform: scale(1.05); }
+194: 
+195: .logo-icon { font-size: 1.5rem; }
+196: 
+197: .logo-accent {
+198:   background: var(--gradient-accent);
+199:   -webkit-background-clip: text;
+200:   -webkit-text-fill-color: transparent;
+201:   background-clip: text;
+202: }
+203: 
+204: .nav-menu {
+205:   display: flex;
+206:   align-items: center;
+207:   gap: var(--space-xs);
+208: }
+209: 
+210: .nav-link {
+211:   padding: var(--space-sm) var(--space-md);
+212:   border-radius: var(--radius-sm);
+213:   font-weight: 500;
+214:   font-size: 0.9rem;
+215:   color: var(--text-secondary);
+216:   transition: var(--transition-fast);
+217:   position: relative;
+218: }
+219: 
+220: .nav-link:hover,
+221: .nav-link.active {
+222:   color: var(--text-primary);
+223:   background: var(--bg-glass-hover);
+224: }
+225: 
+226: .nav-link.active::after {
+227:   content: '';
+228:   position: absolute;
+229:   bottom: 2px;
+230:   left: 50%;
+231:   transform: translateX(-50%);
+232:   width: 20px;
+233:   height: 2px;
+234:   background: var(--accent-primary);
+235:   border-radius: var(--radius-full);
+236: }
+237: 
+238: /* Mobile Nav Toggle */
+239: .nav-toggle {
+240:   display: none;
+241:   flex-direction: column;
+242:   gap: 5px;
+243:   background: none;
+244:   padding: var(--space-sm);
+245: }
+246: 
+247: .nav-toggle span {
+248:   width: 24px;
+249:   height: 2px;
+250:   background: var(--text-primary);
+251:   border-radius: 2px;
+252:   transition: var(--transition-base);
+253: }
+254: 
+255: @media (max-width: 768px) {
+256:   .nav-toggle { display: flex; }
+257:   .nav-menu {
+258:     position: fixed;
+259:     top: 72px;
+260:     left: 0;
+261:     right: 0;
+262:     background: rgba(10, 14, 26, 0.98);
+263:     backdrop-filter: blur(20px);
+264:     flex-direction: column;
+265:     padding: var(--space-lg);
+266:     gap: var(--space-xs);
+267:     transform: translateY(-120%);
+268:     transition: var(--transition-base);
+269:     border-bottom: 1px solid rgba(255,255,255,0.06);
+270:   }
+271:   .nav-menu.open {
+272:     transform: translateY(0);
+273:   }
+274:   .nav-link {
+275:     width: 100%;
+276:     text-align: center;
+277:     padding: var(--space-md);
+278:   }
+279: }
+280: 
+281: /* ========================================
+282:    MAIN CONTENT
+283:    ======================================== */
+284: .main-content {
+285:   min-height: 100vh;
+286:   padding-top: 72px;
+287: }
+288: 
+289: /* ========================================
+290:    HERO SECTION
+291:    ======================================== */
+292: .hero {
+293:   position: relative;
+294:   min-height: calc(100vh - 72px);
+295:   display: flex;
+296:   align-items: center;
+297:   justify-content: center;
+298:   text-align: center;
+299:   padding: var(--space-3xl) var(--space-xl);
+300:   background: var(--gradient-hero);
+301:   overflow: hidden;
+302: }
+303: 
+304: .hero::before {
+305:   content: '';
+306:   position: absolute;
+307:   inset: 0;
+308:   background:
+309:     radial-gradient(circle at 20% 50%, rgba(139, 92, 246, 0.1) 0%, transparent 50%),
+310:     radial-gradient(circle at 80% 50%, rgba(6, 182, 212, 0.1) 0%, transparent 50%),
+311:     radial-gradient(circle at 50% 80%, rgba(249, 115, 22, 0.08) 0%, transparent 50%);
+312:   pointer-events: none;
+313: }
+314: 
+315: .hero-content {
+316:   position: relative;
+317:   max-width: 800px;
+318:   animation: fadeInUp 0.8s ease;
+319: }
+320: 
+321: .hero-badge {
+322:   display: inline-flex;
+323:   align-items: center;
+324:   gap: var(--space-sm);
+325:   background: var(--bg-glass);
+326:   border: 1px solid rgba(255, 255, 255, 0.1);
+327:   padding: var(--space-sm) var(--space-lg);
+328:   border-radius: var(--radius-full);
+329:   font-size: 0.85rem;
+330:   color: var(--text-secondary);
+331:   margin-bottom: var(--space-xl);
+332:   backdrop-filter: blur(10px);
+333: }
+334: 
+335: .hero h1 {
+336:   font-size: clamp(2rem, 5vw, 3.5rem);
+337:   font-weight: 800;
+338:   line-height: 1.2;
+339:   margin-bottom: var(--space-lg);
+340:   letter-spacing: -0.02em;
+341: }
+342: 
+343: .hero h1 .gradient-text {
+344:   background: linear-gradient(135deg, var(--visual-primary), var(--auditory-primary), var(--kinesthetic-primary));
+345:   -webkit-background-clip: text;
+346:   -webkit-text-fill-color: transparent;
+347:   background-clip: text;
+348: }
+349: 
+350: .hero-description {
+351:   font-size: 1.15rem;
+352:   color: var(--text-secondary);
+353:   max-width: 600px;
+354:   margin: 0 auto var(--space-2xl);
+355:   line-height: 1.8;
+356: }
+357: 
+358: .hero-buttons {
+359:   display: flex;
+360:   gap: var(--space-md);
+361:   justify-content: center;
+362:   flex-wrap: wrap;
+363: }
+364: 
+365: /* ---------- Buttons ---------- */
+366: .btn {
+367:   display: inline-flex;
+368:   align-items: center;
+369:   gap: var(--space-sm);
+370:   padding: 14px 28px;
+371:   border-radius: var(--radius-md);
+372:   font-weight: 600;
+373:   font-size: 0.95rem;
+374:   transition: var(--transition-base);
+375:   border: none;
+376:   cursor: pointer;
+377: }
+378: 
+379: .btn-primary {
+380:   background: var(--gradient-accent);
+381:   color: white;
+382:   box-shadow: 0 4px 15px var(--accent-glow);
+383: }
+384: 
+385: .btn-primary:hover {
+386:   transform: translateY(-2px);
+387:   box-shadow: 0 8px 25px var(--accent-glow);
+388: }
+389: 
+390: .btn-outline {
+391:   background: transparent;
+392:   color: var(--text-primary);
+393:   border: 1px solid rgba(255, 255, 255, 0.15);
+394: }
+395: 
+396: .btn-outline:hover {
+397:   background: var(--bg-glass-hover);
+398:   border-color: rgba(255, 255, 255, 0.3);
+399:   transform: translateY(-2px);
+400: }
+401: 
+402: .btn-visual {
+403:   background: var(--gradient-visual);
+404:   color: white;
+405:   box-shadow: 0 4px 15px var(--visual-glow);
+406: }
+407: .btn-visual:hover {
+408:   transform: translateY(-2px);
+409:   box-shadow: 0 8px 25px var(--visual-glow);
+410: }
+411: 
+412: .btn-auditory {
+413:   background: var(--gradient-auditory);
+414:   color: white;
+415:   box-shadow: 0 4px 15px var(--auditory-glow);
+416: }
+417: .btn-auditory:hover {
+418:   transform: translateY(-2px);
+419:   box-shadow: 0 8px 25px var(--auditory-glow);
+420: }
+421: 
+422: .btn-kinesthetic {
+423:   background: var(--gradient-kinesthetic);
+424:   color: white;
+425:   box-shadow: 0 4px 15px var(--kinesthetic-glow);
+426: }
+427: .btn-kinesthetic:hover {
+428:   transform: translateY(-2px);
+429:   box-shadow: 0 8px 25px var(--kinesthetic-glow);
+430: }
+431: 
+432: .btn-success {
+433:   background: linear-gradient(135deg, #10b981, #059669);
+434:   color: white;
+435:   box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+436: }
+437: .btn-success:hover {
+438:   transform: translateY(-2px);
+439:   box-shadow: 0 8px 25px rgba(16, 185, 129, 0.4);
+440: }
+441: 
+442: .btn-sm {
+443:   padding: 8px 16px;
+444:   font-size: 0.85rem;
+445: }
+446: 
+447: .btn-lg {
+448:   padding: 16px 36px;
+449:   font-size: 1.05rem;
+450: }
+451: 
+452: /* ========================================
+453:    SECTION STYLES
+454:    ======================================== */
+455: .section {
+456:   padding: var(--space-3xl) var(--space-xl);
+457:   max-width: 1200px;
+458:   margin: 0 auto;
+459: }
+460: 
+461: .section-header {
+462:   text-align: center;
+463:   margin-bottom: var(--space-3xl);
+464:   animation: fadeInUp 0.6s ease;
+465: }
+466: 
+467: .section-badge {
+468:   display: inline-flex;
+469:   align-items: center;
+470:   gap: var(--space-sm);
+471:   background: var(--bg-glass);
+472:   border: 1px solid rgba(255, 255, 255, 0.08);
+473:   padding: 6px 16px;
+474:   border-radius: var(--radius-full);
+475:   font-size: 0.8rem;
+476:   color: var(--accent-secondary);
+477:   margin-bottom: var(--space-md);
+478:   text-transform: uppercase;
+479:   letter-spacing: 0.08em;
+480:   font-weight: 600;
+481: }
+482: 
+483: .section-title {
+484:   font-size: clamp(1.5rem, 4vw, 2.5rem);
+485:   font-weight: 800;
+486:   margin-bottom: var(--space-md);
+487:   letter-spacing: -0.02em;
+488: }
+489: 
+490: .section-subtitle {
+491:   font-size: 1.05rem;
+492:   color: var(--text-secondary);
+493:   max-width: 600px;
+494:   margin: 0 auto;
+495: }
+496: 
+497: /* ========================================
+498:    CARDS
+499:    ======================================== */
+500: .card {
+501:   background: var(--gradient-card);
+502:   border: 1px solid rgba(255, 255, 255, 0.06);
+503:   border-radius: var(--radius-lg);
+504:   padding: var(--space-xl);
+505:   backdrop-filter: blur(10px);
+506:   transition: var(--transition-base);
+507:   position: relative;
+508:   overflow: hidden;
+509: }
+510: 
+511: .card::before {
+512:   content: '';
+513:   position: absolute;
+514:   top: 0;
+515:   left: 0;
+516:   right: 0;
+517:   height: 1px;
+518:   background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+519: }
+520: 
+521: .card:hover {
+522:   transform: translateY(-4px);
+523:   border-color: rgba(255, 255, 255, 0.12);
+524:   box-shadow: var(--shadow-md);
+525: }
+526: 
+527: .card-visual { border-top: 3px solid var(--visual-primary); }
+528: .card-visual:hover { box-shadow: var(--shadow-glow-visual); }
+529: 
+530: .card-auditory { border-top: 3px solid var(--auditory-primary); }
+531: .card-auditory:hover { box-shadow: var(--shadow-glow-auditory); }
+532: 
+533: .card-kinesthetic { border-top: 3px solid var(--kinesthetic-primary); }
+534: .card-kinesthetic:hover { box-shadow: var(--shadow-glow-kinesthetic); }
+535: 
+536: /* ---------- VAK Feature Cards ---------- */
+537: .vak-grid {
+538:   display: grid;
+539:   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+540:   gap: var(--space-xl);
+541: }
+542: 
+543: .vak-card-icon {
+544:   width: 56px;
+545:   height: 56px;
+546:   border-radius: var(--radius-md);
+547:   display: flex;
+548:   align-items: center;
+549:   justify-content: center;
+550:   font-size: 1.5rem;
+551:   margin-bottom: var(--space-lg);
+552: }
+553: 
+554: .vak-card-icon.visual { background: rgba(139, 92, 246, 0.15); }
+555: .vak-card-icon.auditory { background: rgba(6, 182, 212, 0.15); }
+556: .vak-card-icon.kinesthetic { background: rgba(249, 115, 22, 0.15); }
+557: 
+558: .vak-card h3 {
+559:   font-size: 1.2rem;
+560:   font-weight: 700;
+561:   margin-bottom: var(--space-sm);
+562: }
+563: 
+564: .vak-card p {
+565:   color: var(--text-secondary);
+566:   font-size: 0.95rem;
+567: }
+568: 
+569: .vak-card ul {
+570:   margin-top: var(--space-md);
+571:   display: flex;
+572:   flex-direction: column;
+573:   gap: var(--space-sm);
+574: }
+575: 
+576: .vak-card ul li {
+577:   color: var(--text-secondary);
+578:   font-size: 0.9rem;
+579:   padding-left: var(--space-lg);
+580:   position: relative;
+581: }
+582: 
+583: .vak-card ul li::before {
+584:   content: '▸';
+585:   position: absolute;
+586:   left: 0;
+587:   color: var(--accent-secondary);
+588: }
+589: 
+590: /* ========================================
+591:    QUIZ SECTION
+592:    ======================================== */
+593: .quiz-container {
+594:   max-width: 700px;
+595:   margin: 0 auto;
+596: }
+597: 
+598: .quiz-progress {
+599:   margin-bottom: var(--space-xl);
+600: }
+601: 
+602: .quiz-progress-bar {
+603:   width: 100%;
+604:   height: 6px;
+605:   background: var(--bg-glass);
+606:   border-radius: var(--radius-full);
+607:   overflow: hidden;
+608:   margin-bottom: var(--space-sm);
+609: }
+610: 
+611: .quiz-progress-fill {
+612:   height: 100%;
+613:   background: var(--gradient-accent);
+614:   border-radius: var(--radius-full);
+615:   transition: width 0.5s ease;
+616: }
+617: 
+618: .quiz-progress-text {
+619:   font-size: 0.85rem;
+620:   color: var(--text-muted);
+621:   text-align: right;
+622: }
+623: 
+624: .quiz-question-card {
+625:   animation: fadeInUp 0.5s ease;
+626: }
+627: 
+628: .quiz-question-number {
+629:   font-size: 0.85rem;
+630:   color: var(--accent-secondary);
+631:   font-weight: 600;
+632:   margin-bottom: var(--space-sm);
+633:   text-transform: uppercase;
+634:   letter-spacing: 0.05em;
+635: }
+636: 
+637: .quiz-question-text {
+638:   font-size: 1.25rem;
+639:   font-weight: 700;
+640:   margin-bottom: var(--space-xl);
+641:   line-height: 1.5;
+642: }
+643: 
+644: .quiz-options {
+645:   display: flex;
+646:   flex-direction: column;
+647:   gap: var(--space-md);
+648: }
+649: 
+650: .quiz-option {
+651:   display: flex;
+652:   align-items: center;
+653:   gap: var(--space-md);
+654:   padding: var(--space-lg);
+655:   background: var(--bg-glass);
+656:   border: 1px solid rgba(255, 255, 255, 0.06);
+657:   border-radius: var(--radius-md);
+658:   cursor: pointer;
+659:   transition: var(--transition-base);
+660:   font-size: 0.95rem;
+661:   color: var(--text-secondary);
+662:   text-align: left;
+663:   width: 100%;
+664: }
+665: 
+666: .quiz-option:hover {
+667:   background: var(--bg-glass-hover);
+668:   border-color: rgba(255, 255, 255, 0.15);
+669:   color: var(--text-primary);
+670:   transform: translateX(4px);
+671: }
+672: 
+673: .quiz-option.selected {
+674:   background: rgba(59, 130, 246, 0.1);
+675:   border-color: var(--accent-primary);
+676:   color: var(--text-primary);
+677: }
+678: 
+679: .quiz-option-indicator {
+680:   width: 20px;
+681:   height: 20px;
+682:   border-radius: 50%;
+683:   border: 2px solid rgba(255, 255, 255, 0.2);
+684:   flex-shrink: 0;
+685:   transition: var(--transition-fast);
+686:   display: flex;
+687:   align-items: center;
+688:   justify-content: center;
+689: }
+690: 
+691: .quiz-option.selected .quiz-option-indicator {
+692:   border-color: var(--accent-primary);
+693:   background: var(--accent-primary);
+694: }
+695: 
+696: .quiz-option.selected .quiz-option-indicator::after {
+697:   content: '✓';
+698:   color: white;
+699:   font-size: 0.7rem;
+700:   font-weight: 700;
+701: }
+702: 
+703: .quiz-nav {
+704:   display: flex;
+705:   justify-content: space-between;
+706:   margin-top: var(--space-xl);
+707: }
+708: 
+709: /* ---------- Quiz Result ---------- */
+710: .quiz-result {
+711:   text-align: center;
+712:   animation: fadeInUp 0.6s ease;
+713: }
+714: 
+715: .result-icon {
+716:   font-size: 4rem;
+717:   margin-bottom: var(--space-lg);
+718:   animation: bounce 1s ease infinite;
+719: }
+720: 
+721: .result-title {
+722:   font-size: 1.8rem;
+723:   font-weight: 800;
+724:   margin-bottom: var(--space-sm);
+725: }
+726: 
+727: .result-style-name {
+728:   font-size: 1.3rem;
+729:   font-weight: 600;
+730:   margin-bottom: var(--space-lg);
+731: }
+732: 
+733: .result-style-name.visual { color: var(--visual-primary); }
+734: .result-style-name.auditory { color: var(--auditory-primary); }
+735: .result-style-name.kinesthetic { color: var(--kinesthetic-primary); }
+736: 
+737: .result-description {
+738:   color: var(--text-secondary);
+739:   font-size: 1rem;
+740:   max-width: 500px;
+741:   margin: 0 auto var(--space-2xl);
+742:   line-height: 1.8;
+743: }
+744: 
+745: /* ---------- VAK Bar Chart ---------- */
+746: .result-chart {
+747:   display: flex;
+748:   gap: var(--space-xl);
+749:   justify-content: center;
+750:   margin-bottom: var(--space-2xl);
+751:   flex-wrap: wrap;
+752: }
+753: 
+754: .chart-bar-wrapper {
+755:   display: flex;
+756:   flex-direction: column;
+757:   align-items: center;
+758:   gap: var(--space-sm);
+759: }
+760: 
+761: .chart-bar-container {
+762:   width: 60px;
+763:   height: 150px;
+764:   background: var(--bg-glass);
+765:   border-radius: var(--radius-sm);
+766:   position: relative;
+767:   overflow: hidden;
+768:   display: flex;
+769:   align-items: flex-end;
+770: }
+771: 
+772: .chart-bar {
+773:   width: 100%;
+774:   border-radius: var(--radius-sm);
+775:   transition: height 1s ease;
+776: }
+777: 
+778: .chart-bar.visual { background: var(--gradient-visual); }
+779: .chart-bar.auditory { background: var(--gradient-auditory); }
+780: .chart-bar.kinesthetic { background: var(--gradient-kinesthetic); }
+781: 
+782: .chart-label {
+783:   font-size: 0.8rem;
+784:   font-weight: 600;
+785:   color: var(--text-secondary);
+786: }
+787: 
+788: .chart-percentage {
+789:   font-size: 1rem;
+790:   font-weight: 700;
+791: }
+792: 
+793: /* ---------- Tips List ---------- */
+794: .tips-list {
+795:   text-align: left;
+796:   max-width: 500px;
+797:   margin: 0 auto;
+798: }
+799: 
+800: .tips-list h3 {
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.

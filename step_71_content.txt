@@ -1,0 +1,309 @@
+Created At: 2026-09-23T14:01:08+07:00
+Completed At: 2026-09-23T14:01:08+07:00
+File Path: `file:///c:/Users/lenovo/Documents/Antigrafity/public/css/style.css`
+Total Lines: 3638
+Total Bytes: 75725
+Showing lines 2200 to 2500
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+2200: .breakdown-list {
+2201:   display: flex;
+2202:   flex-direction: column;
+2203:   gap: 1rem;
+2204: }
+2205: 
+2206: .breakdown-item {
+2207:   display: flex;
+2208:   flex-direction: column;
+2209:   gap: 0.4rem;
+2210: }
+2211: 
+2212: .breakdown-header {
+2213:   display: flex;
+2214:   justify-content: space-between;
+2215:   font-size: 0.85rem;
+2216:   font-weight: 600;
+2217:   color: var(--text-secondary);
+2218: }
+2219: 
+2220: .breakdown-pct {
+2221:   color: var(--text-primary);
+2222:   font-weight: 700;
+2223: }
+2224: 
+2225: .breakdown-bar {
+2226:   width: 100%;
+2227:   height: 8px;
+2228:   background: rgba(255, 255, 255, 0.08);
+2229:   border-radius: var(--radius-full);
+2230:   overflow: hidden;
+2231: }
+2232: 
+2233: .breakdown-fill {
+2234:   height: 100%;
+2235:   border-radius: var(--radius-full);
+2236:   transition: width 1s ease;
+2237: }
+2238: 
+2239: .breakdown-fill.desain-grafis { background: var(--gradient-visual); }
+2240: .breakdown-fill.animasi { background: var(--gradient-kinesthetic); }
+2241: .breakdown-fill.video-editing { background: var(--gradient-auditory); }
+2242: .breakdown-fill.audio-editing { background: linear-gradient(135deg, #10b981, #059669); }
+2243: 
+2244: .mm-result-actions {
+2245:   display: flex;
+2246:   gap: 1rem;
+2247:   justify-content: center;
+2248:   flex-wrap: wrap;
+2249:   margin-top: 1.5rem;
+2250: }
+2251: 
+2252: /* Detailed Review Section */
+2253: .mm-review-tabs {
+2254:   display: flex;
+2255:   gap: 0.5rem;
+2256:   margin-bottom: 1.5rem;
+2257:   flex-wrap: wrap;
+2258: }
+2259: 
+2260: .review-tab {
+2261:   padding: 0.5rem 1rem;
+2262:   background: rgba(255, 255, 255, 0.05);
+2263:   border: 1px solid rgba(255, 255, 255, 0.1);
+2264:   border-radius: var(--radius-sm);
+2265:   color: var(--text-secondary);
+2266:   font-size: 0.85rem;
+2267:   font-weight: 600;
+2268:   cursor: pointer;
+2269:   transition: all 0.2s ease;
+2270: }
+2271: 
+2272: .review-tab:hover {
+2273:   background: rgba(255, 255, 255, 0.1);
+2274:   color: var(--text-primary);
+2275: }
+2276: 
+2277: .review-tab.active {
+2278:   background: var(--accent-primary);
+2279:   border-color: var(--accent-primary);
+2280:   color: white;
+2281: }
+2282: 
+2283: .mm-review-list {
+2284:   display: flex;
+2285:   flex-direction: column;
+2286:   gap: 1.25rem;
+2287: }
+2288: 
+2289: .mm-review-card {
+2290:   padding: 1.5rem;
+2291:   border-radius: var(--radius-lg);
+2292:   transition: transform 0.2s ease;
+2293: }
+2294: 
+2295: .mm-review-card.correct {
+2296:   border-left: 4px solid #10b981;
+2297: }
+2298: 
+2299: .mm-review-card.incorrect {
+2300:   border-left: 4px solid #ef4444;
+2301: }
+2302: 
+2303: .review-card-header {
+2304:   margin-bottom: 0.75rem;
+2305: }
+2306: 
+2307: .review-status-badge {
+2308:   font-size: 0.75rem;
+2309:   font-weight: 700;
+2310:   padding: 0.2rem 0.6rem;
+2311:   border-radius: var(--radius-full);
+2312: }
+2313: 
+2314: .review-status-badge.correct {
+2315:   background: rgba(16, 185, 129, 0.2);
+2316:   color: #34d399;
+2317: }
+2318: 
+2319: .review-status-badge.incorrect {
+2320:   background: rgba(239, 68, 68, 0.2);
+2321:   color: #f87171;
+2322: }
+2323: 
+2324: .review-question-text {
+2325:   font-size: 1.05rem;
+2326:   line-height: 1.6;
+2327:   margin-bottom: 1rem;
+2328: }
+2329: 
+2330: .review-options {
+2331:   display: flex;
+2332:   flex-direction: column;
+2333:   gap: 0.5rem;
+2334:   margin-bottom: 1rem;
+2335: }
+2336: 
+2337: .review-option-item {
+2338:   display: flex;
+2339:   justify-content: space-between;
+2340:   align-items: center;
+2341:   padding: 0.65rem 1rem;
+2342:   border-radius: var(--radius-sm);
+2343:   background: rgba(255, 255, 255, 0.02);
+2344:   border: 1px solid rgba(255, 255, 255, 0.05);
+2345:   font-size: 0.9rem;
+2346:   gap: 0.75rem;
+2347: }
+2348: 
+2349: .review-opt-left {
+2350:   display: flex;
+2351:   align-items: center;
+2352:   gap: 0.75rem;
+2353: }
+2354: 
+2355: .option-letter-chip {
+2356:   width: 24px;
+2357:   height: 24px;
+2358:   border-radius: 4px;
+2359:   background: rgba(255, 255, 255, 0.08);
+2360:   display: flex;
+2361:   align-items: center;
+2362:   justify-content: center;
+2363:   font-size: 0.75rem;
+2364:   font-weight: 700;
+2365: }
+2366: 
+2367: .review-option-item.option-correct {
+2368:   background: rgba(16, 185, 129, 0.15);
+2369:   border-color: rgba(16, 185, 129, 0.4);
+2370:   color: #34d399;
+2371: }
+2372: 
+2373: .review-option-item.option-correct .option-letter-chip {
+2374:   background: #10b981;
+2375:   color: white;
+2376: }
+2377: 
+2378: .review-option-item.option-wrong {
+2379:   background: rgba(239, 68, 68, 0.15);
+2380:   border-color: rgba(239, 68, 68, 0.4);
+2381:   color: #f87171;
+2382: }
+2383: 
+2384: .review-option-item.option-wrong .option-letter-chip {
+2385:   background: #ef4444;
+2386:   color: white;
+2387: }
+2388: 
+2389: .review-opt-badge {
+2390:   font-size: 0.75rem;
+2391:   font-weight: 700;
+2392:   padding: 0.15rem 0.5rem;
+2393:   border-radius: var(--radius-sm);
+2394:   flex-shrink: 0;
+2395: }
+2396: 
+2397: .review-option-item.option-correct .review-opt-badge {
+2398:   background: rgba(16, 185, 129, 0.25);
+2399:   color: #34d399;
+2400: }
+2401: 
+2402: .review-option-item.option-wrong .review-opt-badge {
+2403:   background: rgba(239, 68, 68, 0.25);
+2404:   color: #f87171;
+2405: }
+2406: 
+2407: .mm-explanation-box {
+2408:   background: rgba(6, 182, 212, 0.08);
+2409:   border: 1px solid rgba(6, 182, 212, 0.25);
+2410:   border-radius: var(--radius-md);
+2411:   padding: 1rem;
+2412: }
+2413: 
+2414: .explanation-title {
+2415:   font-weight: 700;
+2416:   font-size: 0.85rem;
+2417:   color: #22d3ee;
+2418:   margin-bottom: 0.35rem;
+2419: }
+2420: 
+2421: .explanation-content {
+2422:   font-size: 0.85rem;
+2423:   line-height: 1.6;
+2424:   color: var(--text-secondary);
+2425: }
+2426: 
+2427: @media (max-width: 640px) {
+2428:   .mm-stats-grid {
+2429:     grid-template-columns: repeat(2, 1fr);
+2430:   }
+2431:   .mm-quiz-header-bar {
+2432:     flex-direction: column;
+2433:     align-items: flex-start;
+2434:     gap: 0.5rem;
+2435:   }
+2436:   .mm-cta-card {
+2437:     padding: var(--space-lg);
+2438:   }
+2439: }
+2440: 
+2441: /* ========================================
+2442:    SUPER MARIO QUIZ GAME STYLING
+2443:    ======================================== */
+2444: 
+2445: /* Navbar Game Link Highlight */
+2446: .nav-game-link {
+2447:   color: #fbbf24 !important;
+2448:   font-weight: 600;
+2449:   position: relative;
+2450: }
+2451: 
+2452: /* Mario Hero Button */
+2453: .mario-hero-btn {
+2454:   background: linear-gradient(135deg, #f59e0b, #ef4444);
+2455:   color: #ffffff !important;
+2456:   border: none;
+2457:   box-shadow: 0 4px 20px rgba(239, 68, 68, 0.4);
+2458:   animation: pulse-game-btn 2.5s infinite;
+2459: }
+2460: 
+2461: .mario-hero-btn:hover {
+2462:   transform: translateY(-2px) scale(1.03);
+2463:   box-shadow: 0 8px 30px rgba(239, 68, 68, 0.6);
+2464: }
+2465: 
+2466: @keyframes pulse-game-btn {
+2467:   0%, 100% { box-shadow: 0 4px 20px rgba(239, 68, 68, 0.4); }
+2468:   50% { box-shadow: 0 4px 30px rgba(245, 158, 11, 0.7); }
+2469: }
+2470: 
+2471: /* Mario Home Showcase Banner */
+2472: .mario-home-banner {
+2473:   display: grid;
+2474:   grid-template-columns: 1.2fr 0.8fr;
+2475:   gap: 2rem;
+2476:   align-items: center;
+2477:   background: linear-gradient(135deg, rgba(30, 27, 75, 0.6) 0%, rgba(17, 24, 39, 0.8) 100%);
+2478:   border: 1px solid rgba(245, 158, 11, 0.3);
+2479:   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 0 20px rgba(245, 158, 11, 0.15);
+2480:   border-radius: var(--radius-xl);
+2481:   padding: 2.5rem;
+2482: }
+2483: 
+2484: .mario-banner-title {
+2485:   font-size: 2rem;
+2486:   font-weight: 800;
+2487:   margin: 0.8rem 0;
+2488:   line-height: 1.3;
+2489: }
+2490: 
+2491: .mario-banner-desc {
+2492:   color: var(--text-secondary);
+2493:   font-size: 1rem;
+2494:   line-height: 1.7;
+2495:   margin-bottom: 1.5rem;
+2496: }
+2497: 
+2498: .mario-banner-features {
+2499:   display: flex;
+2500:   flex-wrap: wrap;
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.

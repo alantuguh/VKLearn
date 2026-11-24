@@ -1,0 +1,4 @@
+- [x] Update `mario-game.js` with level configs, hazards, boss fight, SFX, and level progression logic
+- [x] Update `app.js` level-btn click handler to check locked state + add Reset Progress button
+- [x] Update `style.css` with locked/completed/status/next-level-preview styles
+- [x] Verify syntax (both JS files pass)

@@ -1,0 +1,158 @@
+Created At: 2026-09-23T14:01:20+07:00
+Completed At: 2026-09-23T14:01:20+07:00
+File Path: `file:///c:/Users/lenovo/Documents/Antigrafity/public/css/style.css`
+Total Lines: 3638
+Total Bytes: 75725
+Showing lines 2801 to 2950
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+2801:   align-items: center;
+2802:   gap: 1.2rem;
+2803:   margin: 0.8rem 0;
+2804: }
+2805: 
+2806: .anim-fruit { animation: fruit-bounce 1.8s infinite; }
+2807: .anim-mario { animation: run-mario 1.2s infinite; }
+2808: .anim-star { animation: fruit-bounce 2s infinite 0.3s; }
+2809: 
+2810: .start-desc {
+2811:   color: var(--text-secondary);
+2812:   font-size: 0.95rem;
+2813:   line-height: 1.6;
+2814:   margin-bottom: 1.2rem;
+2815: }
+2816: 
+2817: .controls-guide {
+2818:   display: grid;
+2819:   grid-template-columns: 1fr 1fr;
+2820:   gap: 1rem;
+2821:   background: rgba(255, 255, 255, 0.03);
+2822:   border: 1px solid rgba(255, 255, 255, 0.08);
+2823:   border-radius: var(--radius-md);
+2824:   padding: 0.8rem 1rem;
+2825:   margin-bottom: 1.4rem;
+2826:   text-align: left;
+2827:   font-size: 0.85rem;
+2828: }
+2829: 
+2830: .cg-col {
+2831:   display: flex;
+2832:   flex-direction: column;
+2833:   gap: 0.3rem;
+2834: }
+2835: 
+2836: .cg-col strong {
+2837:   color: var(--text-primary);
+2838:   margin-bottom: 0.2rem;
+2839: }
+2840: 
+2841: .cg-col code {
+2842:   background: rgba(255, 255, 255, 0.1);
+2843:   padding: 0.1rem 0.35rem;
+2844:   border-radius: 4px;
+2845:   font-size: 0.8rem;
+2846:   color: #38bdf8;
+2847: }
+2848: 
+2849: /* Level Selector in Start Screen */
+2850: .level-select-section {
+2851:   margin-bottom: 1.2rem;
+2852:   background: rgba(255, 255, 255, 0.03);
+2853:   border: 1px solid rgba(255, 255, 255, 0.08);
+2854:   border-radius: var(--radius-md);
+2855:   padding: 0.75rem 1rem;
+2856: }
+2857: 
+2858: .level-select-header {
+2859:   display: flex;
+2860:   justify-content: space-between;
+2861:   align-items: center;
+2862:   margin-bottom: 0.6rem;
+2863:   font-size: 0.85rem;
+2864:   font-weight: 700;
+2865:   color: var(--text-primary);
+2866: }
+2867: 
+2868: .level-select-grid {
+2869:   display: grid;
+2870:   grid-template-columns: repeat(5, 1fr);
+2871:   gap: 0.5rem;
+2872: }
+2873: 
+2874: .level-btn {
+2875:   background: rgba(255, 255, 255, 0.05);
+2876:   border: 1px solid rgba(255, 255, 255, 0.12);
+2877:   border-radius: var(--radius-sm);
+2878:   padding: 0.5rem 0.3rem;
+2879:   color: var(--text-primary);
+2880:   font-size: 0.8rem;
+2881:   font-weight: 600;
+2882:   cursor: pointer;
+2883:   transition: all var(--transition-fast);
+2884:   display: flex;
+2885:   flex-direction: column;
+2886:   align-items: center;
+2887:   gap: 0.2rem;
+2888:   text-align: center;
+2889: }
+2890: 
+2891: .level-btn:hover {
+2892:   background: rgba(56, 189, 248, 0.15);
+2893:   border-color: #38bdf8;
+2894:   transform: translateY(-2px);
+2895: }
+2896: 
+2897: .level-btn.active {
+2898:   background: linear-gradient(135deg, rgba(56, 189, 248, 0.35), rgba(37, 99, 235, 0.45));
+2899:   border-color: #38bdf8;
+2900:   box-shadow: 0 0 12px rgba(56, 189, 248, 0.4);
+2901:   color: #ffffff;
+2902: }
+2903: 
+2904: .level-btn-num {
+2905:   font-size: 0.95rem;
+2906:   font-weight: 800;
+2907:   font-family: var(--font-mono);
+2908: }
+2909: 
+2910: .level-btn-stars {
+2911:   font-size: 0.62rem;
+2912:   color: #fbbf24;
+2913: }
+2914: 
+2915: .level-btn-name {
+2916:   font-size: 0.68rem;
+2917:   color: var(--text-muted);
+2918:   line-height: 1.2;
+2919: }
+2920: 
+2921: .level-btn.active .level-btn-name {
+2922:   color: #bae6fd;
+2923: }
+2924: 
+2925: .start-play-btn {
+2926:   font-size: 1.1rem;
+2927:   font-weight: 700;
+2928:   padding: 0.9rem 2.2rem;
+2929:   background: linear-gradient(135deg, #10b981, #059669);
+2930:   border: none;
+2931:   box-shadow: 0 4px 20px rgba(16, 185, 129, 0.4);
+2932: }
+2933: 
+2934: .start-play-btn:hover {
+2935:   transform: translateY(-2px) scale(1.02);
+2936:   box-shadow: 0 6px 25px rgba(16, 185, 129, 0.6);
+2937: }
+2938: 
+2939: /* Quiz Modal Content */
+2940: .quiz-box {
+2941:   max-width: 720px;
+2942:   text-align: left;
+2943: }
+2944: 
+2945: .mq-header {
+2946:   display: flex;
+2947:   align-items: center;
+2948:   justify-content: space-between;
+2949:   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+2950:   padding-bottom: 0.8rem;
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.
