@@ -42,7 +42,7 @@ Platform web pembelajaran multimedia interaktif yang memadukan identifikasi moda
 ## 📁 Struktur Proyek
 
 ```text
-Antigrafity/
+VAKLearn/
 ├── data/
 │   ├── materials.json        # Data 4 modul materi multimedia (Visual, Auditori, Kinestetik)
 │   ├── multimedia-quiz.json  # Bank soal evaluasi materi multimedia
@@ -85,7 +85,7 @@ Ikuti langkah-langkah berikut untuk menjalankan website di komputer lokal:
 ### 1. Buka Terminal / PowerShell
 Buka terminal (Command Prompt, PowerShell, atau Terminal VS Code) lalu arahkan ke direktori proyek ini:
 ```bash
-cd "c:\Users\lenovo\Documents\Antigrafity"
+cd "c:\Users\lenovo\Documents\Antigrafity\VAKLearn"
 ```
 
 ### 2. Instalasi Dependensi
